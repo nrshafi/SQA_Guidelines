@@ -28,15 +28,15 @@ You are a **Docusaurus specialist** helping developers build fast, SEO-optimized
 
 ### Day 0: Scaffold & Configure
 ```bash
-npx create-docusaurus@3.9.2 my-site classic
+bunx create-docusaurus@3.9.2 my-site classic
 cd my-site
-yarn add @docusaurus/plugin-sitemap @docusaurus/plugin-ideal-image @docusaurus/plugin-google-gtag
+bun add @docusaurus/plugin-sitemap @docusaurus/plugin-ideal-image @docusaurus/plugin-google-gtag
 ```
 **Config (docusaurus.config.ts):**
 - Add `plugins: ['@docusaurus/plugin-sitemap', '@docusaurus/plugin-ideal-image', '@docusaurus/plugin-google-gtag']`
 - Set `metadata: [{name: 'og:title', content: 'Your Site'}, {name: 'og:image', content: '/img/og.png'}, {name: 'twitter:card', content: 'summary_large_image'}]`
 - Set `trailingSlash: true` for GH Pages compatibility
-- Run `yarn start` to verify localhost:3000
+- Run `bun run dev` to verify localhost:3000
 
 ### Week 1: Content + SEO
 - **Write MDX in `/docs` and `/blog` with frontmatter:**
@@ -51,11 +51,11 @@ yarn add @docusaurus/plugin-sitemap @docusaurus/plugin-ideal-image @docusaurus/p
   ```
 - **Enable plugins in config:** sitemap auto-generates XML, ideal-image optimizes PNGs/JPGs to WebP/AVIF
 - **Add robots.txt and .nojekyll to `/static` for GH Pages**
-- Deploy: `yarn deploy:github` (requires GH Pages config in package.json)
+- Deploy: `bun run deploy` (requires GH Pages config in package.json)
 
 ### Week 2: Analytics & PWA
 - Add `@docusaurus/plugin-google-gtag`, `@docusaurus/plugin-pwa` to config
-- Test with `yarn serve` (prod preview), check meta tags in DevTools Inspector
+- Test with `bun run serve` (prod preview), check meta tags in DevTools Inspector
 - Run Lighthouse audit; optimize images with ideal-image if score < 90
 - Validate social cards: Twitter Card Validator, Facebook Sharing Debugger
 
@@ -80,11 +80,11 @@ yarn add @docusaurus/plugin-sitemap @docusaurus/plugin-ideal-image @docusaurus/p
 
 ## Debugging & Observability
 
-- **Dev Mode:** `yarn start` shows live MDX errors in console
-- **Prod Preview:** `yarn build && yarn serve` — inspect `<head>` meta tags in DevTools to verify OG/Twitter tags
+- **Dev Mode:** `bun run dev` shows live MDX errors in console
+- **Prod Preview:** `bun run build && bun run serve` — inspect `<head>` meta tags in DevTools to verify OG/Twitter tags
 - **SEO Audit:** Lighthouse (⌘⇧I → Lighthouse tab) for scores; validate social cards with [Twitter Card Validator](https://cards-dev.twitter.com/validator) or [Facebook Debugger](https://developers.facebook.com/tools/debug/)
-- **Build Profile:** `yarn build --analyze` to spot slow plugins or heavy dependencies
-- **Logs:** `yarn serve 2>&1 | grep -i error` to catch quiet failures
+- **Build Profile:** `bun run build --analyze` to spot slow plugins or heavy dependencies
+- **Logs:** `bun run serve 2>&1 | grep -i error` to catch quiet failures
 
 ## Template Patterns (Ready to Copy)
 
@@ -166,16 +166,16 @@ const config: Config = {
 
 | Task | Command/Config |
 |------|---|
-| **Init** | `npx create-docusaurus@3.9.2 site classic` |
-| **Add plugin** | `yarn add @docusaurus/plugin-[name]` then add to `plugins: [...]` |
-| **Dev** | `yarn start` (hot reload at localhost:3000) |
-| **Build** | `yarn build` (outputs to `build/`) |
-| **Preview prod** | `yarn serve` (serve build/ locally) |
-| **Deploy GH Pages** | `yarn deploy:github` (requires config in package.json) |
-| **Version docs** | `yarn docusaurus docs:version 1.0` |
-| **Clear cache** | `yarn clear` |
-| **Swizzle component** | `yarn swizzle [component-name]` |
-| **List tools** | `yarn docusaurus docs:version --list` |
+| **Init** | `bunx create-docusaurus@3.9.2 site classic` |
+| **Add plugin** | `bun add @docusaurus/plugin-[name]` then add to `plugins: [...]` |
+| **Dev** | `bun run dev` (hot reload at localhost:3000) |
+| **Build** | `bun run build` (outputs to `build/`) |
+| **Preview prod** | `bun run serve` (serve build/ locally) |
+| **Deploy GH Pages** | `bun run deploy` (requires config in package.json) |
+| **Version docs** | `bunx docusaurus docs:version 1.0` |
+| **Clear cache** | `bun run clear` |
+| **Swizzle component** | `bunx docusaurus swizzle [component-name]` |
+| **List tools** | `bunx docusaurus docs:version --list` |
 
 ## When to Use Docusaurus vs. Alternatives
 
