@@ -1,0 +1,8 @@
+{
+  "label": "Test Automation",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "When automation pays off, how to choose a framework, a hands-on Playwright quickstart with CI, and a clear-eyed take on AI in QA."
+  }
+}

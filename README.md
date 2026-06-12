@@ -1,41 +1,43 @@
-# Website
+# SQA Guidelines
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+A practical handbook for **Software Quality Assurance** — covering the testing craft (test design, bug reporting, exploratory testing, API testing, automation) and the complete playbook for turning those skills into **remote QA jobs or a freelance practice**.
 
-## Installation
+Built with [Docusaurus](https://docusaurus.io/) 3.
+
+## What's inside
+
+- **Foundations** — QA vs QC, SDLC/STLC, testing types and levels, test design techniques with worked examples
+- **The Core Craft** — test cases, bug reports, lean test plans, exploratory testing (SBTM, heuristics), API testing, the standard toolchain
+- **Test Automation** — automation strategy, framework comparison (Playwright/Selenium/Cypress), a hands-on Playwright + CI quickstart, AI in QA
+- **The Remote QA Market** — demand trends, platform comparison (marketplaces, crowdtesting, elite networks), honest rate and salary data
+- **Freelancing Playbook** — portfolio engineering, profile optimization, winning proposals, pricing and contracts, client management, scam protection
+- **Working Remotely** — async-first collaboration, getting hired into remote roles
+- **Career Roadmap** — certifications guide, six-month zero-to-first-client roadmap, scaling up, Bangladesh freelancer's guide
+- **Resources** — copy-paste templates, practice sites, glossary
+
+The content is synthesized from the deep-research reports in [`References/`](./References/) (ChatGPT and Gemini research, 2024–2026) combined with practitioner knowledge and original analysis.
+
+## Development
+
+Requires Node.js >= 20.
 
 ```bash
-npm install
+npm ci            # install dependencies (lockfile-faithful)
+npm run start     # local dev server with hot reload
+npm run build     # production build into build/ (fails on broken links)
+npm run serve     # serve the production build locally
 ```
-
-## Local Development
-
-```bash
-npm start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```bash
-npm run build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ## Deployment
 
-Using SSH:
+Configured for GitHub Pages project hosting (`https://nrshafi.github.io/SQA_Guidelines/`):
 
 ```bash
-USE_SSH=true npm run deploy
+GIT_USER=<your GitHub username> npm run deploy
 ```
 
-Not using SSH:
+This builds the site and pushes it to the `gh-pages` branch. If deploying elsewhere (custom domain, Netlify, Vercel), adjust `url`/`baseUrl` in `docusaurus.config.js`.
 
-```bash
-GIT_USER=<Your GitHub username> npm run deploy
-```
+## Contributing
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+The guidelines are a living document. Corrections and improvements are welcome — open an issue or a pull request. Market figures (rates, fees, platform policies) drift over time; PRs that refresh stale numbers are especially appreciated.
