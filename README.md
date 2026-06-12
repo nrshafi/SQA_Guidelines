@@ -30,7 +30,11 @@ npm run serve     # serve the production build locally
 
 ## Deployment
 
-Configured for GitHub Pages project hosting (`https://nrshafi.github.io/SQA_Guidelines/`):
+Configured for GitHub Pages project hosting (`https://nrshafi.github.io/SQA_Guidelines/`).
+
+Pushes to `main` now deploy automatically through GitHub Actions. Pull requests to `main` also run a build check before merge.
+
+For a manual deploy from your machine:
 
 ```bash
 GIT_USER=<your GitHub username> npm run deploy
