@@ -5,18 +5,18 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'SQA Guidelines',
-  tagline: 'Software Quality Assurance Guidelines & Best Practices',
+  tagline: 'A practical handbook for software quality assurance — and for turning it into a remote career.',
   favicon: 'img/favicon.ico',
 
   future: {
     v4: true,
   },
 
-  url: 'https://your-org.github.io',
-  baseUrl: '/',
+  url: 'https://nrshafi.github.io',
+  baseUrl: '/SQA_Guidelines/',
   trailingSlash: true,
 
-  organizationName: 'your-org',
+  organizationName: 'nrshafi',
   projectName: 'SQA_Guidelines',
   deploymentBranch: 'gh-pages',
 
@@ -36,7 +36,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/your-org/SQA_Guidelines/tree/main/website/',
+          editUrl: 'https://github.com/nrshafi/SQA_Guidelines/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -44,7 +44,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/your-org/SQA_Guidelines/tree/main/website/',
+          editUrl: 'https://github.com/nrshafi/SQA_Guidelines/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -62,13 +62,13 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       metadata: [
         {name: 'og:title', content: 'SQA Guidelines'},
-        {name: 'og:description', content: 'Software Quality Assurance Guidelines & Best Practices'},
+        {name: 'og:description', content: 'Practical software quality assurance guidelines — testing craft, automation, and the playbook for remote QA jobs and freelancing.'},
         {name: 'og:image', content: 'img/docusaurus-social-card.jpg'},
         {name: 'og:type', content: 'website'},
         {name: 'twitter:card', content: 'summary_large_image'},
         {name: 'twitter:title', content: 'SQA Guidelines'},
-        {name: 'twitter:description', content: 'Software Quality Assurance Guidelines & Best Practices'},
-        {name: 'description', content: 'Comprehensive software quality assurance guidelines covering testing, code review, CI/CD, and best practices.'},
+        {name: 'twitter:description', content: 'Practical SQA guidelines: testing craft, automation, and the remote/freelance QA career playbook.'},
+        {name: 'description', content: 'Comprehensive software quality assurance guidelines covering testing fundamentals, bug reporting, test automation, and a complete playbook for remote QA jobs and freelancing.'},
       ],
       colorMode: {
         respectPrefersColorScheme: true,
@@ -89,7 +89,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/your-org/SQA_Guidelines',
+            href: 'https://github.com/nrshafi/SQA_Guidelines',
             label: 'GitHub',
             position: 'right',
           },
@@ -99,21 +99,26 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Guidelines',
             items: [
-              {label: 'Getting Started', to: '/docs/intro'},
+              {label: 'Getting Started', to: '/docs/intro/'},
+              {label: 'The Core Craft', to: '/docs/category/the-core-craft/'},
+              {label: 'Six-Month Roadmap', to: '/docs/career/six-month-roadmap/'},
+              {label: 'Templates', to: '/docs/resources/templates/'},
             ],
           },
           {
             title: 'Community',
             items: [
-              {label: 'GitHub', href: 'https://github.com/your-org/SQA_Guidelines'},
+              {label: 'GitHub', href: 'https://github.com/nrshafi/SQA_Guidelines'},
+              {label: 'Ministry of Testing', href: 'https://www.ministryoftesting.com/'},
             ],
           },
           {
             title: 'More',
             items: [
               {label: 'Blog', to: '/blog'},
+              {label: 'Freelancing Playbook', to: '/docs/category/freelancing-playbook/'},
             ],
           },
         ],
@@ -122,6 +127,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['bash', 'json', 'sql', 'yaml'],
       },
     }),
 };

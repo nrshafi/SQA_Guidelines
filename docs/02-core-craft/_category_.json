@@ -1,0 +1,8 @@
+{
+  "label": "The Core Craft",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "The daily work of professional QA: test cases, bug reports, lean test plans, exploratory testing, API testing, and the standard toolchain."
+  }
+}

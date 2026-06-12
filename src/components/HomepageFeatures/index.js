@@ -1,35 +1,44 @@
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Master the Craft',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Test design techniques, bug reports developers respect, exploratory
+        testing, API testing, and automation with Playwright and CI — the
+        skills that separate professionals from button-clickers.{' '}
+        <Link to="/docs/category/foundations/">Start with Foundations →</Link>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Win Remote Work',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        An honest map of the remote QA market: platforms compared, real rate
+        data, portfolio projects that substitute for experience, proposals
+        that win, and scam protection.{' '}
+        <Link to="/docs/category/freelancing-playbook/">
+          Open the Freelancing Playbook →
+        </Link>
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Grow Your Career',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        A six-month roadmap from zero to first paid client, certifications
+        worth paying for, scaling to retainers and specialization — plus a
+        dedicated Bangladesh freelancer&apos;s guide.{' '}
+        <Link to="/docs/career/six-month-roadmap/">Follow the Roadmap →</Link>
       </>
     ),
   },

@@ -19,8 +19,14 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/docs/intro/">
+            Start Reading
+          </Link>
+          <Link
+            className="button button--outline button--secondary button--lg"
+            style={{marginLeft: '1rem'}}
+            to="/docs/career/six-month-roadmap/">
+            The Six-Month Roadmap
           </Link>
         </div>
       </div>
@@ -32,8 +38,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} — Remote QA & Freelancing Handbook`}
+      description="Practical software quality assurance guidelines: testing craft, automation, and a complete playbook for remote QA jobs and freelancing.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
