@@ -1,30 +1,235 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Global styles for SQA Guidelines.
+ * Brand: Slate (primary) + Amber (accent). Content-first minimalism.
+ * Infima variables are overridden below for both light and dark modes.
  */
 
-/* You can override the default Infima variables here. */
+/* ------------------------------------------------------------------ *
+ * Typography
+ * ------------------------------------------------------------------ */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI',
+    Roboto, Helvetica, Arial, sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', ui-monospace, SFMono-Regular,
+    'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+  --ifm-heading-font-weight: 700;
+  --ifm-font-weight-semibold: 600;
+  --ifm-line-height-base: 1.65;
+  --ifm-heading-line-height: 1.2;
+  --ifm-h1-font-size: 2.5rem;
+  --ifm-h2-font-size: 1.75rem;
+  --ifm-h3-font-size: 1.35rem;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* ------------------------------------------------------------------ *
+ * Light mode — Slate primary, Amber accent
+ * ------------------------------------------------------------------ */
+:root {
+  /* Primary: slate */
+  --ifm-color-primary: #334155;
+  --ifm-color-primary-dark: #2e3b4d;
+  --ifm-color-primary-darker: #2b3848;
+  --ifm-color-primary-darkest: #232e3b;
+  --ifm-color-primary-light: #3b4a5d;
+  --ifm-color-primary-lighter: #3e4e62;
+  --ifm-color-primary-lightest: #495b72;
+
+  /* Accent: amber */
+  --sqa-accent: #f59e0b;
+  --sqa-accent-dark: #d97706;
+  --sqa-accent-contrast: #1f2937;
+
+  /* Surfaces */
+  --sqa-surface: #ffffff;
+  --sqa-surface-alt: #f8fafc;
+  --sqa-border: #e2e8f0;
+  --sqa-muted: #64748b;
+
+  --ifm-code-font-size: 92%;
+  --ifm-link-color: #2563eb;
+  --ifm-link-hover-color: #1d4ed8;
+  --ifm-navbar-link-hover-color: var(--sqa-accent-dark);
+
+  --docusaurus-highlighted-code-line-bg: rgba(15, 23, 42, 0.08);
+
+  --ifm-global-radius: 0.6rem;
+  --sqa-hero-gradient: linear-gradient(135deg, #1e293b 0%, #334155 55%, #475569 100%);
+}
+
+/* ------------------------------------------------------------------ *
+ * Dark mode — lighter slate, brighter amber (designed for contrast)
+ * ------------------------------------------------------------------ */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #94a3b8;
+  --ifm-color-primary-dark: #8293a9;
+  --ifm-color-primary-darker: #798aa1;
+  --ifm-color-primary-darkest: #647488;
+  --ifm-color-primary-light: #a6b3c4;
+  --ifm-color-primary-lighter: #afbbcb;
+  --ifm-color-primary-lightest: #c8d1dc;
+
+  --sqa-accent: #fbbf24;
+  --sqa-accent-dark: #f59e0b;
+  --sqa-accent-contrast: #1f2937;
+
+  --sqa-surface: #1e293b;
+  --sqa-surface-alt: #18212f;
+  --sqa-border: #334155;
+  --sqa-muted: #94a3b8;
+
+  --ifm-background-color: #0f172a;
+  --ifm-background-surface-color: #1e293b;
+  --ifm-link-color: #93c5fd;
+  --ifm-link-hover-color: #bfdbfe;
+  --ifm-navbar-link-hover-color: var(--sqa-accent);
+
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.35);
+
+  --sqa-hero-gradient: linear-gradient(135deg, #0b1120 0%, #1e293b 55%, #334155 100%);
+}
+
+/* ------------------------------------------------------------------ *
+ * Base typography refinements
+ * ------------------------------------------------------------------ */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.02em;
+}
+
+/* Keep long-form docs content at a readable measure */
+.theme-doc-markdown {
+  max-width: 48rem;
+}
+
+.markdown a {
+  font-weight: 500;
+}
+
+/* ------------------------------------------------------------------ *
+ * Navbar — subtle border + blur, refined spacing
+ * ------------------------------------------------------------------ */
+.navbar {
+  border-bottom: 1px solid var(--sqa-border);
+  backdrop-filter: saturate(180%) blur(8px);
+  background-color: color-mix(in srgb, var(--ifm-navbar-background-color) 85%, transparent);
+  box-shadow: none;
+}
+
+.navbar__title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.navbar__item {
+  font-weight: 500;
+}
+
+/* GitHub link as an outline pill */
+.navbar__items--right .navbar__link[href*='github.com'] {
+  border: 1px solid var(--sqa-border);
+  border-radius: 999px;
+  padding: 0.3rem 0.9rem;
+}
+
+.navbar__items--right .navbar__link[href*='github.com']:hover {
+  border-color: var(--sqa-accent);
+  color: var(--sqa-accent-dark);
+}
+
+/* ------------------------------------------------------------------ *
+ * Sidebar — amber active indicator
+ * ------------------------------------------------------------------ */
+.menu__link {
+  border-radius: 0.4rem;
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  position: relative;
+  background: color-mix(in srgb, var(--sqa-accent) 12%, transparent);
+  color: var(--ifm-font-color-base);
+  font-weight: 600;
+}
+
+.menu__link--active:not(.menu__link--sublist)::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.35rem;
+  bottom: 0.35rem;
+  width: 3px;
+  border-radius: 999px;
+  background: var(--sqa-accent);
+}
+
+/* ------------------------------------------------------------------ *
+ * Buttons
+ * ------------------------------------------------------------------ */
+.button--secondary {
+  --ifm-button-background-color: var(--sqa-accent);
+  --ifm-button-border-color: var(--sqa-accent);
+  --ifm-button-color: var(--sqa-accent-contrast);
+  font-weight: 600;
+}
+
+.button--secondary:not(.button--outline):hover {
+  --ifm-button-background-color: var(--sqa-accent-dark);
+  --ifm-button-border-color: var(--sqa-accent-dark);
+  color: var(--sqa-accent-contrast);
+}
+
+.button--outline.button--secondary {
+  --ifm-button-color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.55);
+  background: transparent;
+}
+
+.button--outline.button--secondary:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+/* ------------------------------------------------------------------ *
+ * Admonitions, code, tables
+ * ------------------------------------------------------------------ */
+.theme-code-block {
+  border-radius: var(--ifm-global-radius);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+}
+
+.markdown table {
+  border-radius: var(--ifm-global-radius);
+  overflow: hidden;
+  border: 1px solid var(--sqa-border);
+}
+
+.markdown table thead {
+  background: var(--sqa-surface-alt);
+}
+
+/* ------------------------------------------------------------------ *
+ * Footer
+ * ------------------------------------------------------------------ */
+.footer--dark {
+  --ifm-footer-background-color: #0b1120;
+  --ifm-footer-link-hover-color: var(--sqa-accent);
+  border-top: 1px solid #1e293b;
+}
+
+/* ------------------------------------------------------------------ *
+ * Respect reduced motion
+ * ------------------------------------------------------------------ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }

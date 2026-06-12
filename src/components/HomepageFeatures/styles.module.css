@@ -1,11 +1,65 @@
 .features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
+  padding: 4rem 0 5rem;
   width: 100%;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1.75rem;
+  border: 1px solid var(--sqa-border);
+  border-radius: var(--ifm-global-radius);
+  background: var(--sqa-surface);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+  transition: transform 200ms ease-out, box-shadow 200ms ease-out,
+    border-color 200ms ease-out;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: var(--sqa-accent);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.1);
+}
+
+.iconChip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1.1rem;
+  border-radius: 0.75rem;
+  color: var(--sqa-accent-dark);
+  background: color-mix(in srgb, var(--sqa-accent) 16%, transparent);
+}
+
+[data-theme='dark'] .iconChip {
+  color: var(--sqa-accent);
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.cardText {
+  flex: 1;
+  color: var(--sqa-muted);
+  line-height: 1.6;
+  margin-bottom: 1.1rem;
+}
+
+.cardLink {
+  font-weight: 600;
+  color: var(--sqa-accent-dark);
+  text-decoration: none;
+}
+
+[data-theme='dark'] .cardLink {
+  color: var(--sqa-accent);
+}
+
+.cardLink:hover {
+  text-decoration: underline;
 }

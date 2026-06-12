@@ -1,58 +1,64 @@
-import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
+import {Target, Globe, TrendingUp} from 'lucide-react';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
     title: 'Master the Craft',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Icon: Target,
     description: (
       <>
         Test design techniques, bug reports developers respect, exploratory
         testing, API testing, and automation with Playwright and CI — the
-        skills that separate professionals from button-clickers.{' '}
-        <Link to="/docs/category/foundations/">Start with Foundations →</Link>
+        skills that separate professionals from button-clickers.
       </>
     ),
+    link: {to: '/docs/category/foundations/', label: 'Start with Foundations'},
   },
   {
     title: 'Win Remote Work',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Icon: Globe,
     description: (
       <>
         An honest map of the remote QA market: platforms compared, real rate
         data, portfolio projects that substitute for experience, proposals
-        that win, and scam protection.{' '}
-        <Link to="/docs/category/freelancing-playbook/">
-          Open the Freelancing Playbook →
-        </Link>
+        that win, and scam protection.
       </>
     ),
+    link: {
+      to: '/docs/category/freelancing-playbook/',
+      label: 'Open the Freelancing Playbook',
+    },
   },
   {
     title: 'Grow Your Career',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Icon: TrendingUp,
     description: (
       <>
         A six-month roadmap from zero to first paid client, certifications
         worth paying for, scaling to retainers and specialization — plus a
-        dedicated Bangladesh freelancer&apos;s guide.{' '}
-        <Link to="/docs/career/six-month-roadmap/">Follow the Roadmap →</Link>
+        dedicated Bangladesh freelancer&apos;s guide.
       </>
     ),
+    link: {to: '/docs/career/six-month-roadmap/', label: 'Follow the Roadmap'},
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Icon, title, description, link}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+    <div className="col col--4">
+      <div className={styles.card}>
+        <span className={styles.iconChip} aria-hidden="true">
+          <Icon size={24} strokeWidth={2} />
+        </span>
+        <Heading as="h3" className={styles.cardTitle}>
+          {title}
+        </Heading>
+        <p className={styles.cardText}>{description}</p>
+        <Link className={styles.cardLink} to={link.to}>
+          {link.label} <span aria-hidden="true">→</span>
+        </Link>
       </div>
     </div>
   );

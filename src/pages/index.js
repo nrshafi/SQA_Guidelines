@@ -7,15 +7,21 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
+const chips = [
+  'Foundations → Automation',
+  'Remote QA Playbook',
+  'Six-Month Roadmap',
+];
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
+    <header className={styles.heroBanner}>
+      <div className={clsx('container', styles.heroInner)}>
+        <Heading as="h1" className={styles.heroTitle}>
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -24,10 +30,17 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--outline button--secondary button--lg"
-            style={{marginLeft: '1rem'}}
             to="/docs/career/six-month-roadmap/">
             The Six-Month Roadmap
           </Link>
+        </div>
+        <div className={styles.chips}>
+          {chips.map((label) => (
+            <span className={styles.chip} key={label}>
+              <span className={styles.chipDot} aria-hidden="true" />
+              {label}
+            </span>
+          ))}
         </div>
       </div>
     </header>
