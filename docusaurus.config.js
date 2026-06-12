@@ -38,17 +38,7 @@ const config = {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/nrshafi/SQA_Guidelines/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          editUrl: 'https://github.com/nrshafi/SQA_Guidelines/tree/main/',
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -87,7 +77,7 @@ const config = {
             position: 'left',
             label: 'Guidelines',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+
           {
             href: 'https://github.com/nrshafi/SQA_Guidelines',
             label: 'GitHub',
@@ -117,7 +107,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {label: 'Blog', to: '/blog'},
               {label: 'Freelancing Playbook', to: '/docs/category/freelancing-playbook/'},
             ],
           },
