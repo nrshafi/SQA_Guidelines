@@ -24,6 +24,8 @@ Be specific to THIS spec, not generic.
 
 That last line matters — without it you get the same generic checklist every time.
 
+> **The AI test generation paradox:** It can produce 200 test cases in seconds — which is exactly how long it takes to realize 190 of them are variations of "verify the button exists." Your job is the 10 that matter.
+
 **2. Test data generation.** "Give me 30 realistic user records as JSON: names across 8 locales including RTL scripts, edge-length emails, boundary birthdates around 18 years ago today." Excellent at this; minutes of work become seconds.
 
 **3. Code assistance for automation.** Drafting page objects, explaining someone else's Selenium suite, converting Cypress to Playwright, writing the regex you always forget. Treat output as a junior's pull request: review every line — LLMs love inventing plausible-but-nonexistent locators and API methods.
@@ -38,6 +40,8 @@ That last line matters — without it you get the same generic checklist every t
 - **The oracle problem.** An LLM doesn't know what your client's system *should* do. It pattern-matches what similar systems usually do. "Usually" is exactly where bugs live.
 - **Confident wrongness in automation.** Generated tests that pass vacuously (asserting nothing meaningful) inflate your coverage metrics while defending nothing — silent rot in a suite.
 - **Stale knowledge.** Tool APIs move fast; models recommend deprecated flags and old syntax with total confidence.
+
+> **The oracle problem, illustrated:** Ask an LLM "is this output correct?" and it will say yes with the confidence of a developer who just pushed to main without running tests. The model doesn't know what your system should do — it knows what similar systems usually do. "Usually" is where your bugs live.
 
 > **Client confidentiality — the rule freelancers actually get fired over**
 >
@@ -57,6 +61,8 @@ Concretely, move yourself toward pile 2:
 - Use AI openly as an accelerator in your own workflow and say so in proposals: clients increasingly ask, and "I use AI for test-idea drafts and data generation, with human verification of every deliverable, and never paste your IP into public tools" is exactly the mature answer they're hoping to hear.
 - Stay literate in the emerging tooling: self-healing locators, AI-assisted visual checks, agentic browser testing. Evaluate skeptically — flagship demos hide failure modes — but don't be the tester who's proudly never tried any of it.
 
+> **"AI will replace testers"** — said by people who have never watched an AI try to interact with a dropdown that loads its options after a 3-second delay. The dropdown is still undefeated.
+
 ## A worked example of the right blend
 
 Task: test a new "bulk invite teammates" feature.
@@ -68,3 +74,5 @@ Task: test a new "bulk invite teammates" feature.
 5. *You* write the summary judgment — what's risky, what's ready — because the client is paying for an accountable opinion, and accountability is precisely the thing that can't be delegated to a model.
 
 That division of labor — **AI for volume, human for judgment, human accountable for everything delivered** — is the whole doctrine, and it's durable no matter how the tools evolve.
+
+> **The real AI skill in QA:** Not prompt engineering. Not knowing every tool. It's the ability to look at a beautifully formatted, confidently written test report and say, "This looks great — but did anyone actually *run* the software?"

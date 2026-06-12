@@ -19,6 +19,8 @@ You have ~60 characters to pass a client's relevance filter. "General SQA Tester
 
 Pattern: **role + 2–3 specific services + one credibility hook**. Niche headlines convert *better* despite a smaller audience, because the client with exactly that problem feels found. You can broaden later; you cannot un-bore a generalist first impression.
 
+> **Headline audit:** Read yours out loud. If it sounds like every other QA profile, it is wallpaper. Clients hire the person who sounds like they already know the problem — not the one who sounds like they Googled "QA terms" five minutes ago.
+
 ## The overview: their problem first, you second
 
 Clients read the first two lines before "more." Spend them on the client's pain, not your journey:
@@ -46,6 +48,8 @@ ISTQB CTFL certified · Available 30+ hrs/week · 4+ hours overlap with US ET
 
 Why this structure works: pain hook → service in plain language → **deliverables as bullets** (clients buy deliverables, not skills) → proof → logistics. Note "4+ hours overlap with US ET" — timezone overlap is a real objection for offshore freelancers; answering it preemptively, in their units, removes a silent disqualifier.
 
+> **The "their problem first" rule:** Nobody cares about your 5 years of experience. They care about whether you can find the bug that is costing them $10,000/day. Lead with that.
+
 ## List your device laboratory
 
 Straight from the Gemini reference, and underused: clients value testing on **physical hardware** over emulators. Inventory what you own, specifically:
@@ -57,6 +61,8 @@ iPad 9th gen · Browsers: Chrome, Firefox, Safari, Edge (stable + beta)
 ```
 
 A modest real-device list beats "BrowserStack access" for trust (list both if you have both). Every device you add to a crowdtesting profile also increases test-cycle invitations — the same asset earns twice.
+
+> **Device lab reality:** Your family may question why you own four phones and two laptops "for work." Just wait until the first client thanks you for catching a Galaxy-specific CSS bug. That is when the investment pays for itself — emotionally, if not financially.
 
 ## Mechanics that move ranking
 
@@ -74,6 +80,8 @@ Fiverr buyers browse a catalog, so package precisely:
 - **Three tiers** that scale a *visible* variable: Basic — 2 hours exploratory + bug report ($30–50) · Standard — full functional pass, 3 devices, prioritized report ($80–150) · Premium — test plan + full pass + regression checklist + 7-day retest ($200+).
 - **Gallery**: an annotated sample bug report converts better than any stock laptop photo. Add a 60-second explainer video.
 - **FAQ section** preempting the classics: staging vs production, credentials handling, NDA willingness, turnaround.
+
+> **Fiverr tier psychology:** Basic = "I will take a quick look." Standard = "I will actually test it." Premium = "I will find everything, write the reports, and make your developer question their career choices."
 
 ## The "starter audit" — your conversion machine
 

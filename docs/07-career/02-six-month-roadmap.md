@@ -21,6 +21,8 @@ All three research reports behind this site independently converge on the same s
 
 *Failure mode to dodge:* tutorial purgatory — consuming courses without producing artifacts. The ratio to enforce: one hour producing per hour consuming.
 
+> **Your bank account during Phase 1:** $0.00. Your LinkedIn headline: "Aspiring QA Professional." Your imposter syndrome: off the charts. This is exactly where everyone starts — even the people who now charge $150/hour.
+
 ## Phase 2 — Skill Building (Months 2–4) · Income: $50–300/mo
 
 **Mission: convert knowledge into evidence; earn first crowdtesting dollars.**
@@ -40,6 +42,8 @@ All three research reports behind this site independently converge on the same s
 - Add an AT*SQA micro-credential ($59) only if a specific niche (API, Agile) needs the keyword.
 
 *Failure mode:* treating the exam as a prerequisite to bidding. It is not; Phases 4–5 don't wait for it.
+
+> **Certification reality:** You will study for weeks, sit the exam, pass it, and then realize nobody cares. Just kidding — it *does* help. But the piece of paper is the least impressive thing on your resume compared to the bugs you've actually filed.
 
 ## Phase 4 — Profile & Presence (Months 3–4, parallel) · Income: $150–400/mo
 
@@ -81,6 +85,8 @@ Five numbers, reviewed weekly, that predict whether the roadmap is working:
 3. **Proposal funnel rates** — Phase 5 health
 4. **Reviews + repeat/retainer count** — Phase 5–6 health
 5. **Effective hourly rate** (all earnings ÷ all hours) — the trendline that should bend upward from month 5
+
+> **About those five dashboard numbers:** you will stare at them weekly, obsess over them, and feel either validated or devastated depending on which one you looked at last. This is normal. The numbers are not your self-worth — they are your feedback loop. Treat them like bug reports, not performance reviews.
 
 > **If you're behind schedule**
 >

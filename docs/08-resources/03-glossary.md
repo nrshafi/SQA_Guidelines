@@ -7,6 +7,8 @@ keywords: [qa glossary, software testing terms, testing terminology, qa definiti
 
 Plain-language definitions of the terms you'll actually meet in job posts, interviews, tickets, and client calls. Terms link to the page that treats them in depth.
 
+> **A word about glossaries:** If you've ever read "SDLC/STLC" and your brain briefly read it as a Star Wars droid, you're in the right place.
+
 ### Core concepts
 
 - **Acceptance criteria** — The conditions a user story must meet to be considered done; your minimum test basis. ([SDLC & STLC](../01-foundations/02-sdlc-and-stlc.md))
@@ -18,6 +20,8 @@ Plain-language definitions of the terms you'll actually meet in job posts, inter
 - **Test basis** — Whatever you derive tests from: specs, stories, designs, or reasonable expectation.
 - **Test oracle** — The principle/source that tells you what *correct* looks like. The hardest problem in testing; also why [AI can't fully replace testers](../03-automation/04-ai-in-qa.md#where-ai-fails-dangerously).
 
+> **Acronym overload?** You'll get used to it. Eventually you'll start abbreviating grocery lists. "Pick up B-R-E-A-D on the way home."
+
 ### Test types & levels
 
 - **Smoke test** — Broad, shallow pass over critical paths on each new build. **Sanity test** — narrow check of one fix/feature.
@@ -28,6 +32,8 @@ Plain-language definitions of the terms you'll actually meet in job posts, inter
 - **Black-box / white-box** — Testing without / with knowledge of internal code structure. **Grey-box** — partial knowledge (e.g., you can read the API contracts).
 - **Non-functional testing** — Performance, security, usability, accessibility, reliability — *how well* rather than *what*. ([table](../01-foundations/03-testing-types-and-levels.md#non-functional-types-how-well-it-works))
 - **WCAG / EAA** — Web Content Accessibility Guidelines / European Accessibility Act (enforceable mid-2025; the demand driver for accessibility testing).
+
+> **Naming convention truth:** "Smoke testing" sounds like something that requires a fire extinguisher. "Sanity testing" sounds like a wellness check. Both are just polite ways of saying "let's see if this thing explodes."
 
 ### Test design
 
@@ -54,6 +60,8 @@ Plain-language definitions of the terms you'll actually meet in job posts, inter
 - **Contract testing** — Verifying services honor an agreed schema (Pact, OpenAPI validation) before integration.
 - **HAR file** — Recorded network traffic exported from DevTools; gold-standard bug evidence.
 - **Self-healing locators / agentic testing** — AI-era tooling that adapts selectors / drives apps autonomously; evaluate skeptically. ([AI in QA](../03-automation/04-ai-in-qa.md))
+
+> **The test pyramid exists** because someone, somewhere, decided to write 200 Selenium tests and zero unit tests. We don't talk about that person. We just fix the pyramid and move on.
 
 ### Process & market
 

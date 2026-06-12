@@ -11,6 +11,8 @@ The certification question gets argued endlessly because both camps are right: c
 
 **No** — not for freelancing, and decreasingly for remote employment. The references converge: clients prioritize verified portfolios, repos, and screening performance over diplomas; large enterprises still *prefer* CS degrees for senior salaried roles, but rarely hard-require them for QA. If you have a degree (any field), list it. If you don't, the [portfolio](../05-freelancing/01-portfolio.md) carries the credibility weight — and carries it well.
 
+> **The degree paradox:** you don't need one to get hired. But you need one to get past the filter that says you need one. The filter was written in 2003 and hasn't been updated.
+
 ## When a certification actually pays
 
 1. **Zero work history** — it's third-party proof you studied *something* systematically; for a beginner profile it shifts a "complete unknown" toward "trained unknown." (A portfolio shifts you further; do both, portfolio first.)
@@ -19,6 +21,8 @@ The certification question gets argued endlessly because both camps are right: c
 4. **Forcing-function value** — the syllabus systematizes vocabulary and concepts you'd otherwise absorb patchily; the exam deadline makes you finish. Underrated benefit for self-taught learners.
 
 When it *doesn't* pay: as a substitute for demonstrable work (clients hire evidence over acronyms every time), as a collection hobby (one foundation cert + real work beats four certificates and no portfolio), or as a precondition to start bidding (it isn't — don't let exam prep delay revenue).
+
+> **The forcing-function pitch, simplified:** paying $229 for someone to make you study is the adult version of hiding your phone so you'll do homework. It works. There are cheaper ways to hide your phone.
 
 ## The catalog that matters
 
@@ -32,6 +36,8 @@ When it *doesn't* pay: as a substitute for demonstrable work (clients hire evide
 | **AT*SQA micro-credentials** (API, Agile, Cloud testing…) | **$59 each** (one free with any AT*SQA exam) | Short online proctored exams; successful candidates listed in the AT*Work directory | Quietly the best value-per-dollar in the catalog for topping up a specific keyword |
 | CSM (Scrum) / AWS certs | $250–450 | — | Adjacent, not QA certs; AWS only if you're testing cloud infrastructure specifically |
 
+> **The CSM paradox:** it's not a QA cert, but it might be the most useful non-QA cert on this list — because half your standup meetings will be explaining why the bug can't be "just fixed real quick."
+
 **The deliberate strategy for a beginner who wants one credential:** study the free official CTFL v4.0 syllabus + sample exams (ASTQB/ISTQB sites) during roadmap months 1–3, sit the exam via the cheapest national board around month 3–4 (~$75), add "ISTQB CTFL Certified" to every profile, and stop buying certificates until a specific client segment demands the next one. Total spend: under $100. Everything else that money could buy (device for the [device lab](../05-freelancing/02-profile-optimization.md#list-your-device-laboratory), months of focused practice time) generally returns more.
 
 ## Free and cheap signals that also work
@@ -44,5 +50,7 @@ When it *doesn't* pay: as a substitute for demonstrable work (clients hire evide
 > **Exam-prep honesty**
 >
 > CTFL v4.0 is passable in 3–4 weeks of evening study from the syllabus + sample exams alone; paid bootcamps are a convenience, not a requirement. Beware dumps sites — beyond the ethics, memorized answers defeat the only durable value the cert has (the forcing-function learning), and the interview that follows will expose it in minutes.
+
+> **On dumps sites:** if your study plan involves memorizing answers instead of understanding them, you're not getting certified — you're renting a line on your resume until the first technical screening repossesses it.
 
 Next: the sequencing that puts certifications in their correct, minor place — the [Six-Month Roadmap](./02-six-month-roadmap.md).

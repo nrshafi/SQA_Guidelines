@@ -15,6 +15,8 @@ Two of the three research reports behind this site were written with Bangladeshi
 
 **PayPal is not available in Bangladesh.** Since most platforms and many direct clients default to it, your payment setup is a real onboarding task, not an afterthought. The corridors that do work:
 
+> **The silver lining:** you will never waste a Saturday afternoon arguing with PayPal support about a frozen account. Every cloud.
+
 | Corridor | Best for | Costs (snapshot) | Notes |
 |---|---|---|---|
 | **Payoneer** | Platform payouts (Upwork, Fiverr integrate natively) | ~1% receiving on some routes; up to ~3.5% FX markup; $29.95/yr account fee; bKash withdrawal ≈ BDT 7 per 1,000 | The default workhorse. Pair with EBL (below) to cut intermediary fees |
@@ -26,6 +28,8 @@ Two of the three research reports behind this site were written with Bangladeshi
 **Bank pairings worth knowing:** **Eastern Bank (EBL)** has a direct Payoneer partnership — skips correspondent-bank deductions (saving $12–25 per transfer), credits FC accounts within ~8 business hours, tight FX spreads. **BRAC Bank** offers fully digital onboarding via the Astha app (video KYC with NID) and instant Foreign Currency account creation — hold USD, convert strategically.
 
 **Practical default for a new freelancer:** Upwork/Fiverr → Payoneer (or Upwork's direct bank route) → EBL or BRAC FC account → convert to BDT as needed. Add Wise for direct clients, nsave if you want a USD buffer. Revisit once volumes justify optimizing.
+
+> **Translation for the overwhelmed:** if this reads like a choose-your-own-adventure, it is. Start with one corridor (Payoneer), add others as your income grows. Nobody sets all of this up on day one.
 
 ## Free money you should not leave on the table
 
@@ -41,6 +45,8 @@ Per the FY 2026–27 national budget, income tax and VAT exemptions were **exten
 2. **Paper trail = future access.** Declared, banked income is what mortgage officers, visa officers, and embassies accept. The freelancers who route through informal channels (hundi, crypto P2P) save nothing (they forfeit the 2.5%!) and lose the entire formal-economy upside.
 3. **Keep it boring:** one bank account dedicated to freelance inflows, monthly statement downloads, platform invoices archived ([invoice template](../08-resources/01-templates.md#simple-invoice-skeleton)), and an hour with a local tax practitioner once your income is steady. Rules change with each budget cycle — a yearly check-in is cheap insurance.
 
+> **Boring is a feature, not a bug:** the freelancers who win at tax time are the ones who made it boring. Exciting tax situations involve auditors.
+
 ## Market positioning from Bangladesh
 
 The [geographic arbitrage](../04-remote-market/03-rates-and-earnings.md#geographic-arbitrage--the-honest-mechanics) works strongly in your favor at the skilled tier: South Asian automation engineers landing $30–45/hr contracts are simultaneously a bargain for Western clients and top-percentile local earners. Three Bangladesh-specific tactics:
@@ -48,6 +54,8 @@ The [geographic arbitrage](../04-remote-market/03-rates-and-earnings.md#geograph
 - **Lead with overlap, not geography.** "Daily 09:00–13:00 ET availability" answers the timezone objection before it forms ([why this works](../06-remote-work/01-remote-collaboration.md#timezone-strategy)). The "while you slept" testing rhythm is a genuine selling point for US clients.
 - **Don't price-race to the bottom of the local pool.** The $3–5/hr cohort is competing on the only axis that guarantees misery. The references' data shows Bangladeshi testers sustaining $10–18/hr early and $25–45/hr specialized — the [rate ladder](../04-remote-market/03-rates-and-earnings.md#setting-your-rate--a-method-not-a-number) applies unchanged; your costs just make the early rungs more survivable.
 - **Use the community.** Bangladesh's freelancing ecosystem (BFDS, local QA meetups, university circles) is dense and generous — both for tactical knowledge (which bank manager understands ERQ accounts) and referral flow. The national push behind the ID card reflects real institutional support; ride it.
+
+> **Bangladesh freelancer networking math:** one coffee with a senior freelancer at a BFDS meetup is worth approximately 47 hours of Googling "how to set up ERQ account."
 
 ## The compliance checklist
 

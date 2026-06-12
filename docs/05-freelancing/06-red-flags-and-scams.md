@@ -11,11 +11,15 @@ Beginners are the preferred prey of freelance scams — eagerness plus inexperie
 
 **The "free sample test" harvest.** "Before we hire, please test our app and send a full bug report so we can evaluate you." Five candidates each donate 4 hours; the client assembles the free reports; nobody gets hired. **Rule: evaluation happens on your *portfolio* — that's what it's for — or on a small *paid* trial.** Reasonable middle ground you can offer: one or two sample findings (your [first-bug proposal technique](./03-winning-proposals.md#the-first-bug-technique) already does this) — never a full unpaid pass. A legitimate client accepts "my portfolio shows exactly this deliverable; happy to start with a paid 2-hour trial" instantly.
 
+> **The "free sample test" scam in one sentence:** "Prove your skills by doing free work." Translation: "We need QA labor and you seem enthusiastic." The answer is no.
+
 **The app-install "test" that isn't.** "Install our APK / sign up for our crypto exchange / register with this broker to test it." Sideloaded malware, money-mule onboarding, or referral fraud wearing a QA costume. Test only what makes sense in a sandbox: staging URLs, TestFlight/Play internal tracks, repos. Anything demanding your real financial details "as test data" is a scam, full stop — real clients provision test accounts and test cards.
 
 **The verification-code relay.** "We'll send a code to your phone to verify you for the project — tell us the number." You are being used to register fraud accounts. No legitimate engagement ever needs *your* incoming SMS codes.
 
 **The overpayment / equipment scam.** "We'll send you a check for testing equipment; refund the difference." The check bounces after your "refund" clears. Platform escrow exists precisely so money flows one direction.
+
+> **Overpayment scam logic:** "I accidentally sent you $5,000 instead of $500. Please wire back the difference." The only thing being wired back is your patience.
 
 ## The universal red flags, ranked by certainty
 
@@ -33,6 +37,8 @@ Beginners are the preferred prey of freelance scams — eagerness plus inexperie
 - Interview conducted entirely off-platform (Telegram/WhatsApp) before any contract — recruiter-impersonation scams live there.
 - "Long-term opportunity" used to justify a below-floor rate ("start cheap, we'll raise it later" — they won't).
 
+> **The "long-term opportunity" math:** "Start at $5/hr, and we'll raise it later." Spoiler: later never arrives, but the scope creep does.
+
 **Yellow flags (proceed with structure):**
 - New client, no history, but a detailed thoughtful post → fine; everyone has a first hire. Milestone 1 small.
 - "Previous freelancer disappeared" → maybe true; ask what happened. Twice in their history → the common factor is them.
@@ -47,6 +53,8 @@ Beginners are the preferred prey of freelance scams — eagerness plus inexperie
 5. **Deliver through dated, logged artifacts** (reports, ticket trails, session sheets) so "they did nothing" is never a winnable claim against you.
 6. **When something smells wrong, ask one clarifying question and watch the reaction.** Legitimate clients clarify; scammers escalate pressure or vanish. Pressure in response to reasonable diligence *is* the answer.
 7. **Report, don't just decline.** Flagging scam posts protects the next beginner and (on most platforms) costs you nothing.
+
+> **Scam survival rule #1:** If it sounds too good to be true, it's a test. And not the kind you get paid for.
 
 > **The economics of walking away**
 >

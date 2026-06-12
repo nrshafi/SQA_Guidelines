@@ -41,6 +41,8 @@ Notes:
  - Workaround: re-applying the code restores the correct total.
 ```
 
+> **A developer reading this bug report:** *scrolls once, nods, starts fixing.* **A developer reading "login broken, pls fix":** *scrolls forever, finds nothing, closes ticket, goes to make coffee, reconsiders career choices.*
+
 What makes this report excellent — and worth imitating every time:
 
 1. **Title = location + behavior + condition.** Searchable, instantly understandable, distinguishes itself from neighboring bugs.
@@ -65,6 +67,8 @@ The off-diagonal cells are why both fields exist. Report severity honestly — i
 
 A practical severity scale: **Critical** (crash, data loss, security hole, money wrong, no workaround) · **Major** (core function broken, workaround exists) · **Minor** (non-core function impaired) · **Trivial** (cosmetic).
 
+> **Severity vs. priority in one sentence:** High severity + low priority = "we know it's broken but it's not on fire." Low severity + high priority = "the CEO's middle name is misspelled on the About page and it goes live tomorrow."
+
 ## Evidence standards
 
 - **Screenshot** for visual issues — annotated (arrow/box on the problem; tools: ShareX, Flameshot, CleanShot).
@@ -73,6 +77,8 @@ A practical severity scale: **Critical** (crash, data loss, security hole, money
 - **Logs / device info** for mobile: `adb logcat` extract (Android), device model, OS version, app build.
 - **IDs, not descriptions, for data**: "order #10293" beats "the order I made earlier."
 
+> **An annotated screenshot is worth a thousand words.** A screenshot with a red arrow is worth a thousand words that a developer will actually read.
+
 ## Reporting etiquette that keeps clients
 
 - **One defect per report.** Three bugs in one ticket = two bugs forgotten.
@@ -80,6 +86,8 @@ A practical severity scale: **Critical** (crash, data loss, security hole, money
 - **Neutral tone, no blame.** "Login fails when…" not "Whoever wrote login clearly never tested it."
 - **Report what you saw, including the embarrassing possibility you misunderstood.** "Possibly intended behavior — flagging because it contradicts the Figma" is a perfectly professional report.
 - **Close the loop.** When a fix ships, re-test promptly and confirm in the ticket. Unverified fixes are where regressions sleep.
+
+> **The golden rule of bug reporting:** Write it like you're writing to someone who has 47 other bugs to fix today, zero patience for ambiguity, and a coffee cup that says "I survived a bad bug report once." Because you are.
 
 > **The "first bug free" proposal technique**
 >

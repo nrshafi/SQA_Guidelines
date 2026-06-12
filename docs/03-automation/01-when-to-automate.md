@@ -7,6 +7,8 @@ keywords: [test automation strategy, what to automate, test pyramid, flaky tests
 
 Automation roughly doubles freelance QA rates — the market data in this repo's references puts manual work at $5–35/hr and automation at $20–90/hr. But the skill that actually earns senior rates isn't writing scripts; it's **knowing which scripts are worth writing**. Plenty of teams have been made *slower* by automation: a thousand flaky tests nobody trusts is negative value.
 
+> **The QA math no one warns you about:** if your automation saves 10 hours a week but costs 12 hours a week to maintain, you haven't automated — you've just created a second job with worse hours.
+
 ## The economics in one model
 
 A manual check costs its execution time, every time. An automated check costs **build time + maintenance**, then runs nearly free. So automation pays when:
@@ -28,6 +30,8 @@ That model produces the classic priorities:
 - **Features still churning weekly** — you'll rewrite the test five times before it earns back its cost. Wait for stability.
 - **One-off checks** — the script costs 20× the manual look.
 - **The rarely-touched admin corner** — run-rate too low to ever pay back.
+
+> **Also never automate:** the test that verifies the placeholder text says "Enter your name here." Someone will change the copy, the test will fail, and you'll spend twenty minutes proving the copywriter is not, technically, a bug.
 
 ## The pyramid (and why E2E-everything fails)
 
@@ -53,6 +57,8 @@ A test that fails 1-in-20 runs for non-bug reasons teaches the team to ignore re
 
 Adopt a **zero-tolerance quarantine policy**: a flaky test gets fixed or removed within the sprint. Suites are trust instruments; protect the trust.
 
+> **The five stages of flaky test grief:** denial ("it passed locally"), anger ("who wrote this"), bargaining ("what if I just add a retry"), depression ("nothing matters"), and acceptance ("I'm deleting it").
+
 ## A realistic adoption sequence for a small client
 
 This sequence is the proposal you'll make, repeatedly, for the rest of your career:
@@ -67,3 +73,5 @@ Note the shape: automation doesn't eliminate your role; it **upgrades** it from 
 ## Should *you* learn automation?
 
 Yes — but in the right order. Automation skills compound on top of testing judgment, not instead of it. An automation engineer who can't [design tests](../01-foundations/04-test-design-techniques.md) just produces fast, comprehensive verification of the wrong things. The [Six-Month Roadmap](../07-career/02-six-month-roadmap.md) deliberately sequences manual craft (months 0–4) before automation (months 6+), and the next page helps you pick your framework: [Choosing a Framework](./02-choosing-a-framework.md).
+
+> **Bottom line:** the goal isn't to write more tests. The goal is to sleep better on release night.

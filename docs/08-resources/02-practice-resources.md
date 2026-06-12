@@ -7,6 +7,8 @@ keywords: [practice testing websites, restful booker, automation practice site, 
 
 You cannot learn testing by reading about testing. These are the targets to practice against, sequenced by what they're good for — plus the learning sources and communities that repay attention. All free unless noted.
 
+> **The great irony of QA practice sites:** they're all broken on purpose. You spend your whole career trying to prevent bugs, then come here to find them in a petting zoo of software failures. Embrace the chaos.
+
 ## Practice applications
 
 ### For manual / functional / exploratory practice
@@ -29,6 +31,8 @@ You cannot learn testing by reading about testing. These are the targets to prac
 | **Swagger Petstore** | petstore.swagger.io | Practice working *from an OpenAPI spec* — a real client scenario |
 | **JSONPlaceholder** | jsonplaceholder.typicode.com | Fake REST API for quick experiments |
 
+> **JSONPlaceholder reality check:** "posts" from users who don't exist, about topics nobody chose, stored on a server that forgets everything. It's the existential crisis of APIs — and the perfect sandbox to break things with zero consequences.
+
 ### For automation practice
 
 | Target | URL | Why it's good |
@@ -49,6 +53,8 @@ You cannot learn testing by reading about testing. These are the targets to prac
 - **Courses:** free YouTube playlists cover Selenium/Playwright/Postman end-to-end; Udemy's frequent ~$12–15 sales make paid courses near-free ([never pay full price](../07-career/01-certifications.md#free-and-cheap-signals-that-also-work), and finish what you start — one completed course beats five abandoned ones).
 - **Practice-with-pay:** the [crowdtesting academies](../04-remote-market/02-platforms-and-marketplaces.md#tier-1--crowdtesting-the-apprenticeship-nobody-tells-beginners-about) (uTest Academy, Test IO Academy) are themselves structured courses that route into paid cycles.
 
+> **The learning resource paradox:** you will spend 3 hours reading reviews of practice sites before doing any practice. You will bookmark 40 articles and read none. You will open Playwright docs, close them, open them again, then watch a YouTube tutorial at 1.5x speed instead. This is normal. The fix is picking one thing and doing it for 20 minutes. Just one.
+
 ## Communities worth joining
 
 The [isolation tax](../06-remote-work/01-remote-collaboration.md#sustainable-remote-practice) is real; community is the cure, and it's also where referrals, mentors, and "we're hiring" posts appear first:
@@ -60,3 +66,5 @@ The [isolation tax](../06-remote-work/01-remote-collaboration.md#sustainable-rem
 - **Local/regional** — Bangladesh has active QA meetups, university testing circles and freelancer groups ([Bangladesh Guide](../07-career/04-bangladesh-guide.md#market-positioning-from-bangladesh)); equivalents exist in most tech hubs. In-person connections convert to opportunities at a rate online ones rarely match.
 
 **A 90-day community plan that works:** join two communities → first month: read and search · second month: answer beginner questions one notch below your level (teaching cements learning) · third month: share one artifact from your [portfolio work](../05-freelancing/01-portfolio.md) and ask for critique. By day 90 you're a recognized name in a small pond — which is exactly the size of pond referrals come from.
+
+> **Community truth:** Ministry of Testing has more QA knowledge than most companies' internal wikis. And it's free. The catch is you have to talk to people. Introverts, I believe in you. Start by lurking — there's no shame in reading everything for six months before typing a single sentence. Eventually, though, type a sentence.

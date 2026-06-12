@@ -25,6 +25,8 @@ These techniques are the core of ISTQB exams, the most common QA interview quest
 
 Five tests, five distinct behaviors. A naive tester might try twenty random codes and cover only two of these partitions.
 
+> **The irony of equivalence partitioning:** you pick one value from each partition and hope the developer didn't write different code for each value in that partition. They usually did.
+
 ## Boundary Value Analysis (BVA)
 
 **Idea:** bugs cluster at the *edges* of partitions, because developers write `>` when they mean `>=`. For every boundary, test the boundary value, just below it, and just above it.
@@ -36,6 +38,8 @@ Test: `0` (reject), `1` (accept), `2` (accept), `98` (accept), `99` (accept), `1
 > **Interview gold**
 >
 > "How would you test a field that accepts ages 18–60?" is one of the most common QA interview questions on Earth. The expected answer is exactly EP + BVA: partitions (valid 18–60, below, above, non-numeric, empty) and boundaries (17, 18, 19, 59, 60, 61). Mention overflow values and leading zeros and you're ahead of most candidates.
+
+> **Boundary Value Truth:** the bug is ALWAYS at the boundary. Always. Even when you think you've checked it twice.
 
 ## Decision Tables
 
@@ -67,11 +71,15 @@ Eight rows, complete coverage of the rule, and — frequently — the act of bui
 
 State transition thinking is *the* technique for payments, bookings, subscriptions, and document workflows — exactly the systems clients care most about.
 
+> **Every state diagram has that one transition nobody thought about.** It's the one that crashes production at 2 AM on a Saturday.
+
 ## Pairwise (Combinatorial) Testing
 
 **Idea:** when configurations explode (3 browsers × 4 OSes × 3 user roles × 2 languages = 72 combos), research shows most bugs involve interactions of just **two** parameters. A pairwise set covers every *pair* of values in a fraction of the combinations — typically cutting 72 combos down to about 12–15.
 
 Use a free tool like PICT (Microsoft, command-line) or an online pairwise generator. When a client asks for "testing on all devices," a pairwise matrix is how you scope it affordably — and showing one in a proposal signals real expertise.
+
+> **Pairwise testing:** because you can't test every combination, but you CAN test every argument the developer will try to make about why *that* particular combination doesn't matter.
 
 ## Error Guessing & Experience-Based Attacks
 

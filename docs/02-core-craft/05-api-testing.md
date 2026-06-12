@@ -25,6 +25,8 @@ Every API interaction is a **request** (method + URL + headers + optional body) 
 | 429 | Rate limited | Limits enforced, `Retry-After` present |
 | 500 / 502 / 503 | Server errors | These appearing from *bad user input* is always a bug — input should yield 4xx, never 5xx |
 
+> **Rule of thumb:** If you send `{"name": ""}` and get a 500 back, the backend developer is using `try/catch` as a personality trait.
+
 **The tester's API question list** (this is the actual skill — the tools are trivial):
 
 1. Happy path: correct status, correct body shape, correct data?
@@ -34,6 +36,8 @@ Every API interaction is a **request** (method + URL + headers + optional body) 
 5. Does the API response match what the UI displays? (Mismatch = one of them lies)
 6. Pagination, sorting, filtering edges: page 0, page 99999, conflicting params
 7. Are errors helpful but not *leaky* (no stack traces, no SQL fragments in responses)?
+
+> **The hidden 8th question:** "Did the developer actually read the API contract before implementing?" The answer is always no. The test suite exists because of this question.
 
 ## A professional Postman workflow
 
@@ -68,12 +72,16 @@ npx newman run orders.postman_collection.json -e staging.postman_environment.jso
 
 Put that in a CI pipeline (see [CI for testers](../03-automation/03-playwright-quickstart.md#wire-it-into-github-actions)) and you've delivered continuous API regression — a deliverable many clients will pay a monthly retainer for.
 
+> **Postman survival tip:** If your collection has more than 50 requests, it's not a test suite — it's a cry for help. Organize your life. Name your folders. Give future-you a fighting chance.
+
 ## Beyond Postman
 
 - **curl** — fluency reading/writing curl commands lets you reproduce bugs straight from DevTools ("Copy as cURL") into bug reports. Developers love receiving a failing curl.
 - **REST Assured (Java) / pytest + requests (Python) / Playwright's API mode (TS)** — code-based API tests for when you outgrow collections; they version-control and refactor better.
 - **Contract testing** (concept to know): consumer and provider agree on a schema; tools like Pact or schema validation against OpenAPI/Swagger catch breaking changes *before* integration. Importing a client's Swagger file into Postman and generating checks from it is a slick, fast deliverable.
 - **GraphQL** — one endpoint, queries in the body; test over-fetching authorization (can a query reach fields the user shouldn't see?), depth/complexity limits, and error masking.
+
+> **GraphQL reality check:** The query language is "flexible." The security team calls it "a recursive nightmare with a schema." Test depth limits before someone fetches every user's every order in one request.
 
 ## Practice targets
 

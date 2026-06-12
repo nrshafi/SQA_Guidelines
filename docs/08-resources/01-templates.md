@@ -7,6 +7,8 @@ keywords: [bug report template, test case template, test plan template, qa statu
 
 Every template below is deliberately plain text — paste into Jira, Notion, Sheets, email, or a proposal box and adapt. Each links back to the page that teaches the thinking behind it. Adapt freely; the *fields* are the value, not the formatting.
 
+> **Template truth:** the template is not the work. The template is the starting point for the work. Copy-pasting a bug report template and calling it a day is like copying a recipe and calling yourself a chef.
+
 ## Bug report template
 
 *(Thinking: [Bug Reports Developers Love](../02-core-craft/02-bug-reports.md))*
@@ -33,6 +35,8 @@ Evidence:     Screenshot(s) / recording link / console errors / failing request 
 Notes:        Scope (what else affected) · regression info (last version where it worked) ·
               workaround if any
 ```
+
+> **Bug report template rule:** if you can't fill in every field, you don't understand the bug well enough to report it. Go back and test more.
 
 ## Test case template
 
@@ -91,8 +95,10 @@ DEBRIEF:
  Questions raised:  <for product/dev>
  Coverage:          <what's now covered / explicitly not>
  Next charters:     <spawned follow-ups>
- Gut feel:          <one line on area health>
+  Gut feel:          <one line on area health>
 ```
+
+> **Exploratory testing truth:** the "Gut feel" field is the most honest thing in any test plan. Embrace it.
 
 ## Status report templates
 
@@ -153,6 +159,8 @@ QA testing — <engagement, period>             <12.5h>    <$18/hr>  <$225.00>
 Payment: <Wise/Payoneer/bank details>          Reference: <invoice #>
 Late payments accrue <1.5%/month> after the due date.  Thank you!
 ```
+
+> **Invoice wisdom:** nothing says "professional" like a clean invoice with a clear payment term. Nothing says "amateur" like chasing it three weeks later because you forgot the due date field.
 
 > **Make them yours**
 >

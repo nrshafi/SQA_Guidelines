@@ -18,6 +18,8 @@ Job posts say things like "need regression + smoke + UAT before Friday." This pa
 
 The classic **test pyramid** says: many fast unit tests at the bottom, fewer integration tests in the middle, few expensive E2E tests on top. You'll meet teams whose pyramid is upside down (everything manual, everything E2E) — recognizing that, and gently fixing it, is consultant-level value.
 
+> **Reality check:** Nobody has ever said "we have too many unit tests and not enough clicking." If your pyramid is upside down, the good news is you have a clear consulting opportunity.
+
 ## Functional types: *what behavior* you check
 
 - **Smoke testing** — a short, broad pass over critical paths ("does the app start, can you log in, can you check out?"). Run on every new build; if smoke fails, deeper testing is pointless. Typically 15–30 minutes, heavily scripted, ideal to automate first.
@@ -37,6 +39,10 @@ The classic **test pyramid** says: many fast unit tests at the bottom, fewer int
 | **Usability** | Can a real person accomplish their goal without confusion? | Low — pays modestly, great portfolio builder | Often per-study ($15–30) |
 | **Accessibility** | Does it work with screen readers, keyboard-only, sufficient contrast? (WCAG 2.1/2.2, axe) | Moderate — learnable in weeks | Growing premium |
 | **Reliability / recovery** | What happens on crash, disconnect, retry? | Moderate | Bundled into general QA |
+
+> **Load testing tip:** If your app survives Black Friday traffic, it can survive your intern's for-loop. If it can't survive your intern's for-loop, you have bigger problems than traffic.
+
+> **Security testing motto:** Trust nothing, validate everything, and always check what happens when someone types `' OR 1=1 --` into a form field.
 
 <small>*Blended ranges from the market research in this repo's References folder (2024–2026); treat as directional, not promised.</small>
 
@@ -61,6 +67,8 @@ Synthesizing the rate data across this site's three reference reports:
 | Accessibility | rising | 🟡 | Low (for now) |
 
 The pattern: **pay scales with the size of the audience that *can't* do the work.** Anyone can click through an app; far fewer can script a realistic load profile or audit WCAG compliance. Your career strategy, condensed: *enter through manual testing, but never plan to stay there.* The [Six-Month Roadmap](../07-career/02-six-month-roadmap.md) sequences exactly this.
+
+> **The math:** Manual testing pays $5–35/hr. Security testing pays $50–200/hr. That's not a typo — that's a career trajectory.
 
 ## Answering the client question "what testing do I need?"
 

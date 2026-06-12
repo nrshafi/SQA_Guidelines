@@ -21,6 +21,8 @@ npx playwright show-report   # view the HTML report
 
 You already have a runnable suite and a CI workflow file. Now make it yours.
 
+> **The "it works on my machine" guarantee:** Playwright solves this by running on their machines instead. Which is both better and slightly unsettling.
+
 ## First real test
 
 Playwright's selling points in five lines — auto-waiting, user-facing locators, web-first assertions:
@@ -48,7 +50,7 @@ test("locked-out user sees explanatory error", async ({ page }) => {
 });
 ```
 
-Notice there are no `sleep()` calls and no fragile CSS chains. **Locator priority order:** `getByRole` / `getByLabel` / `getByPlaceholder` / `getByText` first (they test accessibility for free), `data-testid` for things without semantic handles, raw CSS/XPath as a last resort. If you can't locate something semantically, that's frequently an accessibility finding worth reporting — two deliverables from one struggle.
+Notice there are no `sleep()` calls and no fragile CSS chains. Also notice the test password is literally `secret_sauce` — because in QA, even the demo credentials are a little too honest. **Locator priority order:** `getByRole` / `getByLabel` / `getByPlaceholder` / `getByText` first (they test accessibility for free), `data-testid` for things without semantic handles, raw CSS/XPath as a last resort. If you can't locate something semantically, that's frequently an accessibility finding worth reporting — two deliverables from one struggle.
 
 ## Page Object Model — structure that survives change
 
@@ -97,6 +99,8 @@ test("standard user logs in", async ({ page }) => {
 ```
 
 Keep assertions in specs (not page objects), keep page methods *intent-named* (`login`, not `fillAndClick`), and resist over-abstracting until duplication actually hurts.
+
+> **The abstraction trap:** Every Page Object starts as a clean abstraction. Then someone adds a `loginIfUserIsNotAlreadyLoggedInAndAlsoHandleTheWeirdCookieBanner` method, and suddenly you've built a framework instead of a test suite. Resistance is not futile — it's a best practice.
 
 ## API tests in the same suite
 
@@ -152,6 +156,8 @@ jobs:
 ```
 
 Every push now runs the suite; failures upload the HTML report + traces. Open a failing run's trace (`npx playwright show-trace`) and you get time-travel debugging: DOM snapshots, console, and network at every step. **A green Actions badge on a portfolio repo is, for hiring purposes, the difference between "wrote some scripts" and "runs automation in CI."**
+
+> **CI truth:** The first time your tests run in GitHub Actions, they will fail. Not because of the code — because of the environment. The gap between "localhost" and "ubuntu-latest" is where hope goes to be refactored. Embrace it early and often.
 
 ## Habits that keep suites trustworthy
 

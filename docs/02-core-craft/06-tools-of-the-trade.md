@@ -17,6 +17,8 @@ Job posts list tool soup: "JIRA, TestRail, Git, Postman, SQL, Jenkins…" Here's
 
 Get free hands-on practice: JIRA's free tier supports up to 10 users — create a project and run your practice testing through it; "comfortable with JIRA workflows and JQL" then becomes a true statement in your profile.
 
+> **JIRA survival truth:** the tool doesn't slow you down — the 14 custom fields per ticket slow you down.
+
 ## Test management — TestRail, Zephyr, Xray, Qase
 
 **Know one, understand the concepts.** They all model the same things: test cases → suites/plans → runs → results, with reporting on top. TestRail is the most-cited in job posts; Qase and TestLink have free tiers to learn the concepts. For small freelance clients, a disciplined **Google Sheet** (cases as rows; run columns per release) is genuinely fine — clients can open it, comment on it, and you waste zero budget on tooling. Offer the upgrade when the suite outgrows the sheet.
@@ -37,6 +39,8 @@ Survival set: `clone`, `pull`, `add`, `commit`, `push`, `checkout -b`, plus open
 - **Elements** — inspect the DOM; this is also where you learn the CSS selectors that [automation](../03-automation/03-playwright-quickstart.md) depends on.
 - **Application** — cookies, localStorage, session data: what survives logout? (Sometimes the answer is a security bug.)
 
+> **DevTools pro tip:** right-click → Inspect Element is the most powerful debugging tool you'll never stop using. Even senior developers secretly do this.
+
 ## SQL — enough to verify the backend
 
 **One honest week of study.** The UI says "saved" — did it actually save? Backend validation queries:
@@ -55,6 +59,8 @@ LEFT JOIN orders o ON o.id = oi.order_id WHERE o.id IS NULL;
 ```
 
 `SELECT`, `WHERE`, `JOIN`, `GROUP BY/HAVING`, `ORDER BY`, `COUNT/SUM` — that's 90% of testing SQL. Practice free on any SQL sandbox; never run `UPDATE`/`DELETE` on a shared environment without explicit permission (ask for read-only credentials — it protects *you*).
+
+> **SQL for testers:** because sometimes the database knows the truth that the UI is too polite to share.
 
 ## Screen capture & recording
 

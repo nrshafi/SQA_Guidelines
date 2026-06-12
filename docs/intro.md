@@ -15,12 +15,16 @@ Most QA resources do one or the other. They either teach testing theory with no 
 >
 > **Freelance platforms are crowded with people who *call* themselves testers. They are starved of people who can actually test.** Every hour you invest in the craft — test design, sharp bug reports, automation, clear written communication — multiplies the return on every hour you spend bidding, profile-polishing, and networking. Skill first, marketing second. Both matter.
 
+> **Side note for developers reading this:** Yes, your code does have bugs. No, we're not personal enemies. It's nothing personal — it's just that your "it works on my machine" is our "it doesn't work on *my* machine." Funny how that works.
+
 ## Who this is for
 
 - **Complete beginners** who want a realistic, step-by-step path from zero to a first paid QA engagement (typically 4–6 months of disciplined effort).
 - **Working manual testers** who want to move into remote roles, raise their rates, or add automation and API skills.
 - **Career switchers** (developers, support engineers, analysts) who want to understand what professional QA actually involves before committing.
 - **Freelancers in lower-cost regions** (South Asia, Latin America, Eastern Europe, Africa) competing in a global market — including a dedicated guide for Bangladesh-specific payments, taxes, and incentives.
+
+> **Common thread among all of the above:** Someone, at some point, told you "it's not that hard to test." They were wrong. But you'll love it anyway.
 
 ## How the site is organized
 
@@ -41,6 +45,8 @@ Most QA resources do one or the other. They either teach testing theory with no 
 2. **"I want my first paid gig."** Start with the [Six-Month Roadmap](./07-career/02-six-month-roadmap.md) — it sequences everything else on this site into phases with realistic income expectations.
 3. **"I'm already a tester; I want remote work."** Jump to [The Remote QA Market](./04-remote-market/01-market-overview.md), then the [Freelancing Playbook](./05-freelancing/01-portfolio.md) or [Getting Hired Remotely](./06-remote-work/02-getting-hired.md).
 
+> **Statistically speaking:** You'll start with path 2, skip to path 3 by week 3, and eventually read everything in path 1 at 2 AM while questioning your life choices. We've all been there. Welcome.
+
 ## A note on honesty
 
 This site makes a point of being honest about things the internet tends to exaggerate:
@@ -49,6 +55,8 @@ This site makes a point of being honest about things the internet tends to exagg
 - Rates vary wildly by region, specialization, and luck. We show ranges and explain *why* they vary, instead of quoting one flattering number.
 - Certifications help less than portfolios. We explain when ISTQB is worth it and when it isn't.
 - Market figures and platform fees change. Numbers on this site are point-in-time estimates compiled from the research in the repository's `References/` folder (2024–2026 data) plus practitioner experience — always verify current numbers before making decisions.
+
+> **Why the honesty?** Because nothing kills a QA career faster than expecting $5,000/month in your first week and getting $0. Set realistic expectations now so you can ignore them later when you're actually crushing it.
 
 ## Contributing
 

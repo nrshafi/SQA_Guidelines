@@ -14,6 +14,8 @@ The **Software Development Life Cycle** is the path from idea to running softwar
 - **Waterfall (sequential).** Each stage completes before the next begins; testing is a late phase. Still common in regulated domains (banking cores, medical devices, government). Heavy documentation, formal sign-offs.
 - **Agile (iterative).** Work ships in 1–4 week increments. Testing happens *inside* every increment, continuously. This is the dominant model in startups and SaaS — which is to say, the dominant model among remote/freelance clients.
 
+> **The Waterfall truth:** The only thing that moves sequentially in Waterfall is the blame — from requirements to design to development to "well, QA should have caught that."
+
 > **What this means for you**
 >
 > Almost every freelance client works in some flavor of Agile (often a loose one). They will not hand you a requirements document. You'll get user stories, Figma links, half-written Notion pages, or a Slack message that says "can you test the new checkout?" Part of your value is *creating* the missing structure: turning vague intentions into explicit, checkable expectations.
@@ -45,12 +47,16 @@ Inside any delivery model, testing itself follows a repeatable arc, the **Softwa
 
 In Agile, this whole cycle compresses into days and repeats every sprint. The phases don't disappear; they just get lighter and overlap.
 
+> **The testing lifecycle in practice:** Requirement analysis is when you realize the story is three sentences. Test planning is when you realize you need more than an afternoon. Test design is when you realize the acceptance criteria are optional. Execution is when you realize the developer tested on a different environment. Closure is when you write the report no one reads.
+
 ## Shift-left and shift-right (and why clients pay for them)
 
 - **Shift-left** = move quality work earlier. Review acceptance criteria before development, test API contracts before the UI exists, automate checks that run on every code push. Each defect prevented here is the cheapest defect of all.
 - **Shift-right** = keep verifying after release. Monitor logs and error rates, test in production safely (feature flags, canary releases), watch real user behavior.
 
 As a freelancer you can productize both ends: "I'll review your user stories for testability" (left) and "I'll do a weekly production smoke test and report" (right) are both lightweight, recurring, retainer-friendly services.
+
+> **Shift-left in practice:** It means the tester joins the meeting everyone else complains about attending.
 
 ## V-Model: worth knowing for interviews
 

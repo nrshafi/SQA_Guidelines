@@ -15,6 +15,8 @@ The math that makes it work: a client paying $400/month for a defined block (reg
 
 Retainer hygiene: written scope per block, unused hours don't roll, overage at full rate, quarterly value review (show the numbers: bugs caught, releases protected — make renewal a formality).
 
+> **Retainer math reality check:** 4 clients × $400/month = $1,600/month of predictable income. That's not freelancing anymore — that's a business with flexible hours and no HR department.
+
 ## Move 2 — The specialization bet
 
 Generalists compete with everyone; specialists compete with dozens. Pick **one** axis and re-aim your profile, portfolio, and content at it:
@@ -28,6 +30,8 @@ Generalists compete with everyone; specialists compete with dozens. Pick **one**
 
 The test of a real specialization: your headline names a *client*, not a tool list — and prospects say "that's exactly us." You can always take work outside the niche; you market inside it.
 
+> **The specialization paradox:** narrowing your focus feels like losing clients. It's actually gaining the right ones. "I test everything" is a commodity. "I test fintech APIs" is a specialty.
+
 ## Move 3 — Productized services
 
 Custom-scoped work has a sales cost on every deal. Packaging kills it: fixed scope, fixed price, named deliverable — the [starter audit](../05-freelancing/02-profile-optimization.md#the-starter-audit--your-conversion-machine) was the first rung; the scaled menu looks like:
@@ -38,6 +42,8 @@ Custom-scoped work has a sales cost on every deal. Packaging kills it: fixed sco
 - **Accessibility Audit** ($400–900): WCAG scan + manual keyboard/screen-reader pass + prioritized remediation report.
 
 Productization also fixes your *pricing* psychology: clients compare a package against the problem ("is launch confidence worth $900?"), not against another freelancer's hourly rate.
+
+> **The pricing psychology shift:** clients don't compare your $900 package to another freelancer's $50/hour. They compare it to the cost of a failed launch. Suddenly, your rate is irrelevant and your value is everything.
 
 ## Move 4 — Up-market and off-platform
 
@@ -52,6 +58,8 @@ Around $4–6K/month of demand, your calendar fills and you must choose:
 **Solo expert** — raise rates until demand balances calendar; keep margins (90%+), keep autonomy, accept the income ceiling of one person's hours. Best when your value is *judgment* (exploratory, strategy, audits). Many of the happiest careers in QA live here permanently.
 
 **Micro-agency** — subcontract execution (a junior runs regression passes you've systematized; you own clients, strategy, and review). Margins drop (30–50% on subcontracted hours), management becomes your job, but income decouples from your hours and the *systematized assets* you've built (suite skeletons, checklists, report templates) become genuinely leverageable. Start with exactly one trusted junior on exactly one well-documented retainer; scale only what survives contact with delegation.
+
+> **Solo vs micro-agency:** solo means you do everything. Micro-agency means you do everything plus manage people who do everything. Choose your adventure carefully.
 
 There's also the **hybrid exit**: scaled freelancers are extremely attractive senior/lead hires — a $130K+ remote QA lead role with your client-facing scars is a legitimate "scaling move" too ([Getting Hired](../06-remote-work/02-getting-hired.md)).
 

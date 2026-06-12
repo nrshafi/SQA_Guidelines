@@ -18,6 +18,8 @@ Before investing six months of evenings into a QA career, you deserve an honest 
 | Skills shortage signal | Median time-to-fill for *senior automation* roles in North America exceeded **90 days** in 2025 |
 | Tool demand shift | Playwright job postings roughly **tripled** 2024–26; Cypress plateaued; Selenium's enterprise base persists |
 
+> **$48–56 billion and doubling:** That's roughly the GDP of a small country. A small country that's very concerned about whether your checkout flow works.
+
 > **About these numbers**
 >
 > Different analysts slice "testing market" differently (services vs. tools vs. staff), which is why we show ranges rather than one precise-looking number. Directionally, every source agrees: growth, not decline. Always sanity-check current figures before quoting them to anyone.
@@ -29,6 +31,8 @@ Before investing six months of evenings into a QA career, you deserve an honest 
 3. **Regulation keeps annexing new territory.** Accessibility (the EU's EAA, enforceable since mid-2025), privacy, financial compliance — each creates testing demand with legal teeth.
 4. **The seniority gap.** Plenty of people can click through an app; the 90-day time-to-fill is for people who can *engineer* quality. The shortage is at the skill end — which is exactly the end you can choose to be on.
 
+> **The 90-day time-to-fill:** Longer than most sprints, most New Year's resolutions, and most people's patience with flaky test suites.
+
 ## Who's hiring
 
 | Industry | Share / trend | What they buy | Notes for you |
@@ -39,6 +43,8 @@ Before investing six months of evenings into a QA career, you deserve an honest 
 | **E-commerce / retail** | Steady, seasonal spikes | Payment flows, cart integrity, cross-browser/device | Black-Friday-readiness load testing is a recurring seasonal gig |
 | **Mobile-first products** | Persistent | Device-matrix testing, app-store release checks | Pairs with a [real-device lab](../05-freelancing/02-profile-optimization.md#list-your-device-laboratory) |
 | Gaming, IoT, blockchain | Niche but real | Specialized playability/hardware/protocol testing | Passion niches; gaming pays least, IoT/embedded pays well |
+
+> **Gaming QA pays least:** Turns out "you get to play video games for a living" is the world's most effective unpaid internship pitch.
 
 ## The structural shifts shaping the work
 
@@ -57,5 +63,7 @@ Put bluntly, the market is splitting:
 - **Skill tier:** automation, API, performance, security, accessibility, and manual testers with sharp [test design](../01-foundations/04-test-design-techniques.md) + excellent written communication. Demand here outruns supply (that 90-day vacancy stat), and remote-friendliness means it's accessible from anywhere.
 
 Every other section of this site is engineered around one instruction: **pass through the commodity tier as fast as possible; do not settle in it.** Enter via manual testing (it's the legitimate on-ramp), but with a 6-month plan to carry differentiating skills — the [roadmap](../07-career/02-six-month-roadmap.md) sequences it.
+
+> **The commodity tier:** Where your hourly rate competes with someone who thinks "regression testing" means checking if the app still turns on. Don't stay here.
 
 Next: where the work actually lives — [Platforms & Marketplaces](./02-platforms-and-marketplaces.md).

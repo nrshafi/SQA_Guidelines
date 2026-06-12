@@ -20,6 +20,8 @@ Rate questions deserve numbers, not vibes — but honest numbers come in ranges,
 | Performance / load | $25–40 | $40–80 | $120+ | Scarce supply |
 | Security testing | $35–50 | $50–120 | $200+ | Different career, really |
 
+> **The range in a nutshell:** the same job title — "QA Tester" — spans from "person who clicks buttons for $5" to "person who breaks things for $200/hr and gets thanked for it." Specialization is just code for "getting paid to be the person who finds the bug everyone else is afraid to admit exists."
+
 ## Full-time remote salaries (USD/year, US-market roles)
 
 | Level | Range across sources | Midpoint feel |
@@ -45,6 +47,8 @@ Clients on open marketplaces routinely scale offers by freelancer location. The 
 
 Read this correctly: it's unfair, *and* it's the arbitrage that makes the opportunity. Testing skills are perfectly portable — a Playwright suite from Dhaka is identical to one from Denver. A skilled automation engineer in a low-cost region charging "senior South Asia" rates ($30–45/hr) is simultaneously a bargain for a US client and a top-decile local income. The gap also narrows as you climb: location pricing dominates the commodity tier, while at the specialized end clients increasingly pay for the *person*, not the postcode. One more reason to [exit the commodity tier fast](./01-market-overview.md#the-bifurcation--and-your-strategy).
 
+> **Geographic arbitrage, simplified:** your client pays $80/hr because that's what their last US hire cost. You charge $35/hr because that's a 3x raise over your local market. Both of you feel like you got a great deal. This is what economists call "mutual benefit," and what freelancers call "not telling anyone how far $35 goes in your country."
+
 ## Why the published ranges disagree so much
 
 Worth understanding, because it inoculates you against both despair ("$5/hr?!") and delusion ("$90/hr soon!"): averages mix regions with 10x cost differences; "QA tester" spans button-clicker to SDET; platform-listed rates differ from *won* rates; survey data skews toward those who answer surveys; and hourly vs. fixed-price vs. salaried numbers aren't comparable. Whenever you see a single confident number for "QA freelance rates," someone has averaged apples, oranges, and furniture.
@@ -60,8 +64,12 @@ Worth understanding, because it inoculates you against both despair ("$5/hr?!") 
 >
 > Your first contracts are not income — they're **paid marketing**. You're buying reviews, a Job Success Score, and proof-of-work, probably at an effective rate that would be unacceptable later. That's fine *if it's a deliberate 60–90 day phase with an exit ladder*, and corrosive if it quietly becomes your identity. Decide the end date of your "cheap era" before it starts.
 
+> **The cheap era timeline is not a suggestion.** Treat it like a bug bounty program with a deadline. If you're still accepting $5/hr after 90 days, you haven't built a portfolio — you've built a habit. Both are hard to break, but only one pays the rent.
+
 ## Earnings trajectory (composite of the three references' roadmaps)
 
 Realistic monthly income for a disciplined beginner: months 0–2: **$0** · months 2–4: **$50–300** (crowdtesting) · months 4–6: **$200–500** (first contracts) · months 6–12: **$500–2,000** (reviews + early specialization) · year 2 with automation/API specialization: **$1,500–4,000+**. Faster happens; slower is common; the variable that moves the curve most is how early you escape commodity manual work.
 
 Payment mechanics for Bangladesh-based freelancers (Payoneer, Wise, nsave, bank routes, the 2.5% incentive) live in the [Bangladesh Guide](../07-career/04-bangladesh-guide.md).
+
+> **The earnings trajectory, emotionally:** Month 0–2: "I'm building skills." Month 2–4: "I'm building a portfolio." Month 4–6: "I'm building momentum." Month 6–12: "I'm building a career." Year 2: "I'm building a life where I never have to explain to my parents what QA actually is."

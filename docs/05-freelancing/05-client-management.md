@@ -22,6 +22,8 @@ Before any engagement, get answers to these (it takes ten minutes and instantly 
 
 Question 2 is the one beginners skip and seniors lean on: a client whose investor demo is in 12 days needs *different testing* (demo-path bulletproofing) than one hardening for scale. Testing the right thing for the wrong goal is still failure.
 
+> **If the client can't answer question 5 (worst bug so far),** either they've never shipped software before, or the worst bug is so traumatic they've blocked it out. Either way, budget extra time for discovery.
+
 ## The operating rhythm: visibility is the product
 
 Remote clients can't see you work; silence reads as absence. The cure costs five minutes a day:
@@ -36,6 +38,8 @@ EOD update — Tue 14 May
 
 Done / next / flagged / need — four lines, same time every day, zero surprises. This single habit generates more rehires than any technical skill, because what clients are actually buying from a remote freelancer is **the feeling that things are handled.** A weekly version (with numbers: cases run, bugs by severity, risk summary) goes to less-involved clients; template in [Templates](../08-resources/01-templates.md#status-report-templates).
 
+> **A daily status update is proof of life.** Clients don't actually read every line — they scan for the green checkmarks and sleep better at night. You're not writing a report. You're writing a lullaby.
+
 Three companion habits:
 
 - **Never sit on a blocker.** Blocked 30+ minutes by access/environment/ambiguity → flag it immediately with what you're doing meanwhile. The phrase "I lost two days waiting but didn't want to bother you" has ended a thousand freelance relationships.
@@ -47,6 +51,8 @@ Three companion habits:
 - **Scope changes get the magic words** — pleasant, immediate re-quoting ([script here](./04-pricing-and-contracts.md#scope-define-it-then-defend-it-pleasantly)). Resentful silent absorption is how good engagements rot.
 - **Availability is defined, not infinite.** State working hours and response expectations in the kickoff ("Slack replies within 4 business hours, 09:00–18:00 GMT+6; for release-day emergencies, here's what counts as one"). Clients respect declared boundaries and trample undeclared ones.
 - **The "quick favor" gets a friendly meter.** Two free quick favors per engagement is good relationship lubricant; the third gets "happy to — I'll add it to Friday's invoice as a 30-min item, that ok?"
+
+> **The third "quick favor" is where good freelancing goes to die.** It's like lending money to a friend — the first time is generous, the second time is a pattern, and the third time is a business model they didn't agree to pay for.
 
 ## Engineering the review
 
@@ -64,6 +70,8 @@ The conversion script, deployed at wrap-up of any successful engagement:
 > "As you keep shipping, the same risks return with every release. Most of my clients move to a standing arrangement — for example, 15 hours each release cycle: regression on the critical paths, exploratory on whatever's new, and same-day verification of your bug fixes. Want me to sketch what that'd look like for your cadence?"
 
 It converts shockingly often, because the alternative (re-finding a trusted tester later) is exactly the pain they hired you to end. Three or four retainers is a stable income floor — the full arithmetic is in [Scaling Up](../07-career/03-scaling-up.md).
+
+> **A retainer is a gym membership you actually use.** They keep showing up whether you feel like it or not, and they keep making you stronger. The difference is you bill them.
 
 ## Firing a client (yes, really)
 

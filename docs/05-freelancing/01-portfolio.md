@@ -19,6 +19,8 @@ With zero work history, your portfolio **is** your work history. It's the answer
 4. **Two exploratory session sheets** — charters, timestamped notes, debrief ([format](../02-core-craft/04-exploratory-testing.md#session-notes-that-justify-invoices)). Almost no beginner portfolios have these; they signal *structured thinking under freedom*, which is what clients are actually buying.
 5. **A test summary report** — coverage, findings by severity, residual-risk opinion. The artifact a client would forward to their co-founder.
 
+> **The planning paradox:** the test plan is the artifact nobody else includes and everybody values. It's the flossing of QA portfolios — everyone knows they should do it, almost nobody actually does. Be the person who flosses.
+
 ## Project 2 — API Request & Response Suite (the differentiator)
 
 **Target:** *Restful Booker* API, *ReqRes*, or *Thinking Tester Contact List API*.
@@ -48,6 +50,8 @@ With zero work history, your portfolio **is** your work history. It's the answer
 
 **GitHub** (technical audience): pin the three repos; profile README with a 3-line intro, your testing philosophy in one sentence, toolchain, and links. Repos need: descriptive about-line, real README with screenshots, sensible folder structure, and *recent commits* — a portfolio last touched 8 months ago whispers "abandoned."
 
+> **Commit archaeology:** hiring managers check commit dates like archaeologists check carbon-14. A commit from last week says "active." A commit from 2023 says "either abandoned or haunted." Neither is the vibe you want.
+
 **Notion** (non-technical clients — most freelance buyers!): a public page, gallery view, one card per project: scope, what you did, *3 sample findings*, link to full artifacts. Lead with outcomes ("found 14 defects including 2 payment-blocking") not tools. This is the link you put in proposals — founders click Notion; they bounce off GitHub.
 
 **Platform portfolios** (Upwork/Fiverr): upload the *visual* artifacts — annotated screenshots of bug reports, the test plan PDF, the green CI badge screenshot. Each portfolio item gets a one-line outcome caption.
@@ -58,8 +62,12 @@ With zero work history, your portfolio **is** your work history. It's the answer
 - **Open-source bug reports:** file 3–5 excellent issues against active OSS projects; link them. Public, verifiable, real.
 - **A short demo video:** 3 minutes, you walking through one bug discovery — proves communication skills no document can.
 
+> **Demo video reality:** your first take will sound like you're narrating a nature documentary about bugs. That's fine. By take three, you'll sound like someone who does this for a living — because you do.
+
 ## Cadence and scope control
 
 Total build time: roughly 60–80 focused hours across [roadmap](../07-career/02-six-month-roadmap.md) months 2–4. The trap is polishing Project 1 forever — set a two-week deadline per project, ship imperfect, iterate later. A complete portfolio at 80% polish beats a perfect Project 1 and two empty repos by a mile.
+
+> **The perfectionism tax:** your Project 1 will never feel done. That's not a bug — it's a feature of having taste. The client isn't hiring your final commit; they're hiring the person who knows when to stop. Ship it.
 
 Next: making strangers find and trust it — [Profile Optimization](./02-profile-optimization.md).

@@ -13,7 +13,11 @@ Pricing isn't just "what number" — it's *which model*, *what's included*, and 
 
 **Fixed-price** — best for: crisply-defined deliverables you've done before ("regression pass on these 80 cases across 4 browsers, twice"). Premium-price it (~20–30% above your hourly × honest estimate) because *you* now carry the risk of surprises. Only viable with the [estimation discipline](../02-core-craft/03-test-plans-and-strategy.md#estimating-testing-time-the-honest-method) — beginners who fixed-price vague scope are donating weekends. **Always milestone it** (see below).
 
+> **Fixed-price reality:** You estimate 8 hours. It takes 14. The client asks for "just one more thing" three times. You finish, deliver, and they say "great, now can you also..." This is normal. Budget for it.
+
 **Retainer** — the goal state: a recurring monthly block ("up to 25 hours: regression each release + exploratory on new features + on-call bug verification, $X/month"). Predictable for both sides; price the block slightly *below* your hourly × hours (you're buying predictability too) but with unused hours non-rollover and overage at full rate. Most retainers begin as a successful hourly engagement plus one sentence from you: "Want to make this a standing arrangement each release?" Ask it. See [Scaling Up](../07-career/03-scaling-up.md).
+
+> **Retainer truth:** The moment a client signs a retainer, you will feel an overwhelming urge to check your email at 11 PM "just in case." Resist. A retainer means you have a *standing arrangement*, not a standing invitation to abandon your personal life.
 
 ## Milestones for fixed-price work
 
@@ -35,6 +39,8 @@ Every engagement gets a written scope — the [one-page plan](../02-core-craft/0
 
 No resentment, no free work, no conflict — just a quote. Clients respect this far more than silent absorption followed by burnout. The freelancers who get walked over aren't the polite ones; they're the ones with no written scope to point at.
 
+> **Scope creep defense:** "That's outside the original scope" is a sentence that gets easier to say the more you say it. The first time feels like a breakup. The tenth time feels like a Tuesday.
+
 > **The "you tested it, why is there a bug?" clause**
 >
 > Put expectation language in every scope: *"Testing reduces risk; it cannot prove the absence of defects. Coverage is prioritized by the risk ranking in this plan, and untested areas are listed as such in the summary report."* This sentence — standard in professional services — converts a future blame conversation into a documented, shared understanding. It has saved more freelancer relationships (and payments) than any tool ever will.
@@ -47,6 +53,8 @@ Mechanics that work, drawn from the references' progression data and field pract
 - **Existing clients get gentler, dated raises:** "From March 1 my standard rate is $25/hr (from $18). Because we work well together, yours moves to $22." Notice + loyalty discount = nearly zero churn in practice.
 - **Stop lowering; start adding.** When a client pushes back on price, adjust *scope*, not rate ("at $300 I can cover checkout and auth; the full pass is $450") — discounting your rate re-anchors every future negotiation, while scope-trimming preserves it.
 - The deliberate cheap era of your first contracts ([Rates & Earnings](../04-remote-market/03-rates-and-earnings.md#setting-your-rate--a-method-not-a-number)) should have a calendar end date. Honor it.
+
+> **Rate raise script:** "I've enjoyed working together. Based on my growing expertise and market rates, my new rate is $X effective [date]." Delete everything after "working together" if you want to be less diplomatic.
 
 ## Contract / SOW essentials (beyond platform ToS)
 
@@ -63,5 +71,7 @@ On-platform, the contract is mostly handled; for direct clients you need a simpl
 ## Money hygiene
 
 Track *effective* hourly (earnings ÷ ALL hours incl. proposals and admin) monthly — it's your real business dashboard and tells you when to raise rates or fire a high-maintenance client. Reserve a tax fraction from every payout in a separate account from day one (Bangladesh specifics: [Bangladesh Guide](../07-career/04-bangladesh-guide.md)). Invoice direct clients like a grown-up business: numbered invoices, clear line items, due dates — template in [Templates](../08-resources/01-templates.md#simple-invoice-skeleton).
+
+> **The freelancer tax ritual:** Open a spreadsheet. Stare at the number. Transfer 25–30% to a separate account. Close the spreadsheet. Tell no one. This is now your most sacred weekly practice.
 
 Next: the skills that make clients *stay* — [Client Management](./05-client-management.md).

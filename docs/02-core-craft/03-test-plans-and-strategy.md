@@ -21,6 +21,8 @@ You cannot test everything, so rank what matters. Score each product area on two
 
 Payments, authentication, data import/export, and anything touching personal data almost always land in the top-right cell. The marketing pages almost never do. Writing this down — and getting the client to nod at it — converts your private judgment into agreed scope.
 
+> **The marketing page paradox:** everyone wants to test it thoroughly because it's the first thing users see. Nobody wants to pay for it. Accept that the hero banner will ship with a typo and move on.
+
 ## The one-page test plan
 
 This structure has survived hundreds of real engagements. Full copy-paste version in [Templates](../08-resources/01-templates.md#one-page-test-plan).
@@ -55,6 +57,8 @@ Eight sections, one page. Each exists because its absence has burned freelancers
 - **Exit criteria** — without them, engagements end with "just one more look?" forever. Define done *before* you start.
 - **Assumptions** — late builds and slow fixes are the two ways fixed-price testing gigs go underwater. Name them.
 
+> **Uncomfortable truth:** every one of those eight sections exists because someone, somewhere, once skipped it and spent a week doing unpaid detective work. Don't be that someone.
+
 ## Test strategy vs. test plan
 
 Loosely: **strategy** is the durable how-we-test (levels, automation philosophy, environments, tooling) — set once per product; the **plan** is the per-release/per-engagement instance. Small clients don't need the distinction; just know that when an interviewer asks, strategy = org-level approach, plan = project-level execution.
@@ -69,6 +73,8 @@ Beginners chronically underestimate. A defensible model:
 4. Reporting and communication: **10%**.
 
 So "test our new checkout" ≈ 6 sessions × 1.5h = 9h, +30% friction ≈ 12h, + re-test ~4h, + reporting ~1.5h → **quote ~17–18 hours, not the 8 your optimism suggested.** Your future self will thank you. Pricing models that wrap around this estimate live in [Pricing & Contracts](../05-freelancing/04-pricing-and-contracts.md).
+
+> **Estimation survival rule:** take your honest best guess, multiply by two, then halve it so you sound reasonable. You'll still be wrong, but at least you'll be wrong in a range the client can absorb.
 
 ## The test summary report — the artifact clients remember
 
@@ -85,6 +91,8 @@ Quality view: Checkout core flows are solid. Residual risk: discount-code
            one follow-up session after the pricing refactor.
 Known issues list: attached.
 ```
+
+> **Why the summary report matters more than the testing:** testing finds bugs; the report convinces someone to fix them. A beautiful 200-hour engagement means nothing if the final PDF reads like it was written during a power outage. Spend the extra hour on the report.
 
 > **Original insight: the plan is a sales tool**
 >

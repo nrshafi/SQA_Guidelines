@@ -7,6 +7,8 @@ keywords: [upwork qa, fiverr testing gigs, utest, test io, testlio, toptal qa, r
 
 There are four distinct *kinds* of venue for remote QA work, and they reward different things. Beginners waste months treating them as interchangeable. They're not — they form a **ladder**, and the smart move is climbing it in order.
 
+> **Beginner reality check:** you will read this ladder, think "I'll just skip to tier 3," apply to 47 jobs with zero experience, and then come back to tier 1 anyway. The ladder exists because the market enforced it long before this guide did.
+
 ## The four tiers at a glance
 
 | Tier | Examples | You're paid for | Entry barrier | Best at stage |
@@ -29,6 +31,8 @@ Crowdtesting platforms distribute real companies' test cycles to a global tester
 
 What crowdtesting actually pays you: first money ($50–300/month is realistic by months 2–4), but more importantly **ratings, device-lab discipline, professional bug-report reps, and résumé lines** ("found and reported 60+ approved defects across 14 commercial apps via uTest"). Treat it as a paid apprenticeship, not a destination — the ceiling is low and per-bug payment punishes thorough-but-unlucky testing.
 
+> **The "60+ approved defects" résumé line:** it sounds impressive until you realize it took 3 months and paid less than a single day of professional QA work. But here's the thing — it's the line that gets you *to* that day of professional QA work. ROI is rarely linear.
+
 ## Tier 2 — Open marketplaces: where first clients live
 
 **Upwork** is the deepest QA market (hundreds of open QA listings at any moment — the references counted ~875 "QA tester" jobs at one snapshot). Hourly or fixed-price; bidding costs Connects (a small real-money stake per proposal, which is *good* — it thins lazy competition). Success is a numbers-times-quality game: tight niche profile + [personalized proposals](../05-freelancing/03-winning-proposals.md) + entry-level filters at first. Expect fee ~10% (check current schedule; Upwork has used 5/10/20% tiers, flat 10%, and 0–15% variable models over the years).
@@ -37,6 +41,8 @@ What crowdtesting actually pays you: first money ($50–300/month is realistic b
 
 **Freelancer.com / PeoplePerHour / Guru** — smaller QA volume, aggressive price pressure (Freelancer's "contests" pay only the winner — generally skip those). Worth a profile if a niche fits (PeoplePerHour skews UK/EU), not worth your prime attention.
 
+> **Proposal economics:** spending 2 hours writing a $20 Upwork proposal is not a great hourly rate. But spending 2 hours writing a proposal that leads to a $2000 retainer? That's called investing. Most freelancers never learn the difference.
+
 ## Tier 3 — Curated job boards: salaried remote QA
 
 **LinkedIn** carries the most remote QA roles of any single venue, plus the recruiter inbound that compounds over time — optimizing your profile there is covered in [Getting Hired](../06-remote-work/02-getting-hired.md). **We Work Remotely / Remote.co / FlexJobs / RemoteOK / Wellfound (startups)** list genuine remote positions, mostly expecting 2+ years of demonstrable experience — which crowdtesting plus a few marketplace contracts can legitimately constitute. No platform fees; traditional interviews instead.
@@ -44,6 +50,8 @@ What crowdtesting actually pays you: first money ($50–300/month is realistic b
 ## Tier 4 — Elite networks
 
 **Toptal, Lemon.io, Arc** pre-vet talent and sell trust to clients at premium blended rates (often $60+/hr billed). Multi-stage screens: English, live technical interviews, test projects. Apply when you can pass a senior bar cold — a failed screen typically locks you out for months. One strong year of real contracts first is the sensible sequencing.
+
+> **Toptal's 3% acceptance rate:** that's lower than Harvard, Stanford, and MIT. But unlike those schools, Toptal doesn't require your parents to have a building named after them. Just the ability to pass a live technical interview while someone watches you type — which is arguably harder.
 
 ## Choosing your two
 

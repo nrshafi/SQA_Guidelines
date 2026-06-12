@@ -20,6 +20,8 @@ Remote postings draw hundreds of applicants; a recruiter spends ~30 seconds, oft
 - **Experience without employment counts when framed as work**: "Freelance QA Tester (2025–present)" with client outcomes; "Crowdtester — uTest" with approved-bug stats; portfolio projects as a "Selected projects" section with links. This is precisely what the [portfolio](../05-freelancing/01-portfolio.md) was engineered to support — never write "no experience," because by then it's false.
 - **Mirror the posting's keywords honestly** (the ATS is literal: if they say "test cases" and you wrote "test scenarios," say both). A short tailoring pass per application beats one generic blast into the void.
 
+> **Resume truth:** ATS systems reject resumes faster than developers reject PR comments. One missing keyword and you're in the void. The keyword is usually "Agile."
+
 ## The interview question bank
 
 Remote QA interviews are remarkably predictable. The recurring set, with the strategy for each:
@@ -38,6 +40,8 @@ Remote QA interviews are remarkably predictable. The recurring set, with the str
 
 **Remote-specific additions:** "How do you stay productive unmanaged?" and "How do you handle a blocker when everyone's asleep?" — answer with the [async patterns](./01-remote-collaboration.md#async-first-the-core-discipline): the options-plus-default message, the daily four-liner, documented decisions. Interviewers for remote roles weight these answers *heavily*; they've been burned before.
 
+> **The "where do you see yourself in 5 years" of QA:** "Still finding bugs, but with a nicer keyboard."
+
 ## The take-home assignment
 
 Now standard for remote QA: "test this app for 2–3 hours, send your report." How to convert it:
@@ -46,6 +50,8 @@ Now standard for remote QA: "test this app for 2–3 hours, send your report." H
 2. **Respect the timebox visibly** ("I timeboxed to 3h; given more I'd next examine…") — it demonstrates honesty and scoping, both rarer than bug-finding.
 3. **One level deeper than asked**: include the failing API request behind one UI bug. That single network-tab detail routinely decides hires.
 4. **Calibrate effort to legitimacy**: a structured 2–3h exercise on a demo/public app is normal; "test our production backlog for free across a week" is [labor harvesting](../05-freelancing/06-red-flags-and-scams.md#the-qa-specific-traps) — decline politely or propose a paid trial.
+
+> **Take-home assignment reality check:** if the assignment takes more than 3 hours, either they don't respect your time or they need a full-time employee at freelance rates. Both are red flags.
 
 ## Trial periods and contract-to-hire
 

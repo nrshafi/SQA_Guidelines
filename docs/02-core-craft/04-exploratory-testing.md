@@ -9,6 +9,8 @@ Exploratory testing is **simultaneous learning, test design, and execution** —
 
 It's also the discipline that most clearly separates skilled testers in a market full of checklist-followers — and unlike automation, it requires zero programming to excel at.
 
+> **In one sentence:** you click things until something breaks, but you do it *systematically*. The "systematically" part is what makes it a skill and not just chaos.
+
 ## Session-Based Test Management (SBTM)
 
 The framework that makes exploration auditable (crucial when someone is paying by the hour):
@@ -45,6 +47,8 @@ codes×shipping ❌ (next charter). Feel: pricing engine fragile around state ch
 
 That artifact converts "I poked around for a while" into accountable, resumable, client-visible work. Three such session sheets are worth more in your [portfolio](../05-freelancing/01-portfolio.md) than fifty generic test cases.
 
+> **The invoice test:** if your session notes would look suspicious on an invoice, you didn't do enough documenting. If they look suspicious on a *resume*, you did.
+
 ## Heuristics that guide where to look
 
 Heuristics are experience compressed into prompts. The two worth memorizing:
@@ -56,6 +60,8 @@ Stuck mid-session? Walk the letters: "Have I tested how *time* affects this? Wha
 **RCRCRC (Karen Johnson)** — what to cover in a *regression* pass when time is short: **R**ecent (what changed) · **C**ore (what must never break) · **R**isky (historically fragile areas) · **C**onfiguration (environment-sensitive behavior) · **R**epaired (recently fixed — fixes regress) · **C**hronic (the bugs that keep coming back).
 
 When a client says "we ship Friday, you have one day," RCRCRC *is* your test plan.
+
+> **SFDIPOT decoded:** if you ever forget what it stands for, just remember — "Something's Fishy, Definitely Investigate, Probable Outage, Terrible." You'll cover roughly the same angles, and nobody will quiz you on the acronym during the debrief.
 
 ## Testing tours
 
@@ -71,6 +77,8 @@ Borrowed from James Whittaker — themed walks through a product, great for stru
 | **Supermodel tour** | Someone who only looks at appearance | Visual/layout/responsive issues |
 
 A first engagement with any new client maps neatly to: Landmark → Money → Saboteur, one session each. You'll have a credible read on product quality — and usually a fistful of bugs — within three sessions.
+
+> **The Garbage Collector tour** — also known as "what happens if I open every screen, even the one that hasn't been touched since 2019." Turns out, not great.
 
 ## Exploratory + scripted: the right blend
 

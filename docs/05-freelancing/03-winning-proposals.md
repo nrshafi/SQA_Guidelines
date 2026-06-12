@@ -18,6 +18,8 @@ Proposals are where freelancing is actually won and lost. The math is brutal —
 
 Total: **under 200 words.** Long proposals signal that working with you will involve reading long messages.
 
+> **Proposal length reality:** 200 words is roughly one paragraph per section. You're not writing a test plan — you're writing a cover letter that happens to know what a regression suite is.
+
 ## The first-bug technique
 
 If the job post names or implies a public product, spend 15–20 minutes on it before bidding and include **one real finding, professionally formatted**, in the proposal:
@@ -25,6 +27,8 @@ If the job post names or implies a public product, spend 15–20 minutes on it b
 > While writing this I spent 15 minutes on your site. One finding: on mobile Safari (iPhone 13, iOS 18), the coupon field in checkout accepts input but the Apply button stays disabled until the page is rotated — likely costing conversions. Steps + screen recording: [link]. The full pass would catch this class of issue systematically.
 
 Why it converts so well: it's *unfakeable* proof of competence (no credential debates), demonstrates your actual deliverable quality, creates reciprocity, and instantly reframes the conversation from "who should I hire?" to "what else would this person find?" One genuine minor bug outperforms any paragraph about your dedication. (Don't manufacture drama out of nothing — if you find no issue, point out something specific you'd prioritize testing and why.)
+
+> **The fine line:** finding a bug in a client's product before you're hired is either very impressive or very creepy. Fortunately, the "impressive" interpretation is the default — as long as the bug report is accurate and you don't phrase it like "I noticed you leave your back door unlocked."
 
 ## Annotated example
 
@@ -56,6 +60,8 @@ that handled by a third party you trust?                              ← advanc
 
 ~180 words. Every line either proves something or moves the engagement forward.
 
+> **Proposal-writing vs. bug-reporting:** they're the same skill — be specific, be concise, show your work. The difference is that a bad proposal costs you a job and a bad bug report costs you a client. Choose which failure motivates you more.
+
 ## Selection discipline: which jobs to bid on
 
 Proposals cost Connects (real money) and hope (realer money). Filters that protect both:
@@ -75,3 +81,5 @@ A useful weekly budget while launching: 15–25 targeted proposals. Track them i
 > **Volume never fixes a conversion problem**
 >
 > If 30 proposals produce zero replies, the 31st identical one won't either. Diagnose in order: (1) job selection — too crowded/too senior? (2) first line — generic? (3) proof — irrelevant or missing? (4) profile — does the click-through kill it (see [Profile Optimization](./02-profile-optimization.md))? Fix the funnel stage that's actually leaking, then resume volume.
+
+> **The freelancer's paradox:** you need experience to win clients, but you need clients to get experience. The first-bug technique is the cheat code — it lets you demonstrate the experience before anyone's paying you for it, which is either brilliant or a sign that the gig economy has broken us all.
