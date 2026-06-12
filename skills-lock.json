@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "docusaurus-expert": {
+      "source": "raphaelmansuy/agentic_platform_reference",
+      "sourceType": "github",
+      "skillPath": "docusaurus-expert/SKILL.md",
+      "computedHash": "9a539becc396040ac998c9368e4ab5db7529773e8238811ccc6f598538820986"
+    }
+  }
+}
