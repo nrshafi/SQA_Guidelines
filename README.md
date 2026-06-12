@@ -19,13 +19,13 @@ The content is synthesized from the deep-research reports in [`References/`](./R
 
 ## Development
 
-Requires Node.js >= 20.
+Requires Node.js >= 20 and [Bun](https://bun.sh).
 
 ```bash
-npm ci            # install dependencies (lockfile-faithful)
-npm run start     # local dev server with hot reload
-npm run build     # production build into build/ (fails on broken links)
-npm run serve     # serve the production build locally
+bun install        # install dependencies
+bun run dev        # local dev server with hot reload
+bun run build      # production build into build/ (fails on broken links)
+bun run serve      # serve the production build locally
 ```
 
 ## Deployment
