@@ -6,6 +6,12 @@
       "sourceType": "github",
       "skillPath": "docusaurus-expert/SKILL.md",
       "computedHash": "9a539becc396040ac998c9368e4ab5db7529773e8238811ccc6f598538820986"
+    },
+    "ui-ux-pro-max": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "computedHash": "6337038fe1fe6bbe1b9f252ab678ee575859190bab6f0f246f4061824eb40875"
     }
   }
 }

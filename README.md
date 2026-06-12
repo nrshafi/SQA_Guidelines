@@ -33,15 +33,3 @@ npm run serve     # serve the production build locally
 Configured for GitHub Pages project hosting (`https://nrshafi.github.io/SQA_Guidelines/`).
 
 Pushes to `main` now deploy automatically through GitHub Actions. Pull requests to `main` also run a build check before merge.
-
-For a manual deploy from your machine:
-
-```bash
-GIT_USER=<your GitHub username> npm run deploy
-```
-
-This builds the site and pushes it to the `gh-pages` branch. If deploying elsewhere (custom domain, Netlify, Vercel), adjust `url`/`baseUrl` in `docusaurus.config.js`.
-
-## Contributing
-
-The guidelines are a living document. Corrections and improvements are welcome — open an issue or a pull request. Market figures (rates, fees, platform policies) drift over time; PRs that refresh stale numbers are especially appreciated.
