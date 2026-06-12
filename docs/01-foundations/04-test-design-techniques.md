@@ -33,11 +33,9 @@ Five tests, five distinct behaviors. A naive tester might try twenty random code
 
 Test: `0` (reject), `1` (accept), `2` (accept), `98` (accept), `99` (accept), `100` (reject). Add the nasty cousins: `-1`, `1.5`, `01`, empty, non-numeric, and `999999999999` (overflow).
 
-:::tip Interview gold
-
-"How would you test a field that accepts ages 18–60?" is one of the most common QA interview questions on Earth. The expected answer is exactly EP + BVA: partitions (valid 18–60, below, above, non-numeric, empty) and boundaries (17, 18, 19, 59, 60, 61). Mention overflow values and leading zeros and you're ahead of most candidates.
-
-:::
+> **Interview gold**
+>
+> "How would you test a field that accepts ages 18–60?" is one of the most common QA interview questions on Earth. The expected answer is exactly EP + BVA: partitions (valid 18–60, below, above, non-numeric, empty) and boundaries (17, 18, 19, 59, 60, 61). Mention overflow values and leading zeros and you're ahead of most candidates.
 
 ## Decision Tables
 

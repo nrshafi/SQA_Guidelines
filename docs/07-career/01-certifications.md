@@ -41,10 +41,8 @@ When it *doesn't* pay: as a substitute for demonstrable work (clients hire evide
 - **The Playwright/Postman official learning paths** — free, current, and the badge links to demonstrable skill.
 - **A green CI badge on your automation repo** — not a certificate at all, and routinely more persuasive than one to anyone technical doing the hiring.
 
-:::note Exam-prep honesty
-
-CTFL v4.0 is passable in 3–4 weeks of evening study from the syllabus + sample exams alone; paid bootcamps are a convenience, not a requirement. Beware dumps sites — beyond the ethics, memorized answers defeat the only durable value the cert has (the forcing-function learning), and the interview that follows will expose it in minutes.
-
-:::
+> **Exam-prep honesty**
+>
+> CTFL v4.0 is passable in 3–4 weeks of evening study from the syllabus + sample exams alone; paid bootcamps are a convenience, not a requirement. Beware dumps sites — beyond the ethics, memorized answers defeat the only durable value the cert has (the forcing-function learning), and the interview that follows will expose it in minutes.
 
 Next: the sequencing that puts certifications in their correct, minor place — the [Six-Month Roadmap](./02-six-month-roadmap.md).

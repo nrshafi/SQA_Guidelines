@@ -81,11 +81,9 @@ Suite: Smoke               (10)   ← cross-cutting, run on every build
 
 Tag cases with `smoke` / `regression` / `release` so you can pull the right subset under deadline. In tools: TestRail, Zephyr, Xray, Qase, or TestLink are the common managers — but a well-structured **Google Sheet is completely acceptable** for small clients and has the advantage that clients can open it. Don't let tool snobbery delay delivery.
 
-:::tip Freelancer angle: the suite as a product
-
-A reusable "e-commerce regression suite skeleton" (60–80 well-organized cases with placeholders) is one of the highest-leverage assets you can build. Each new client gets a tailored copy in hours instead of days, and "I have a battle-tested checkout regression framework I'll adapt to your store" is a proposal line that wins jobs. Build it once from the [portfolio projects](../05-freelancing/01-portfolio.md).
-
-:::
+> **Freelancer angle: the suite as a product**
+>
+> A reusable "e-commerce regression suite skeleton" (60–80 well-organized cases with placeholders) is one of the highest-leverage assets you can build. Each new client gets a tailored copy in hours instead of days, and "I have a battle-tested checkout regression framework I'll adapt to your store" is a proposal line that wins jobs. Build it once from the [portfolio projects](../05-freelancing/01-portfolio.md).
 
 ## Common mistakes
 

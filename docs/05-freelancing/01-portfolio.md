@@ -40,11 +40,9 @@ With zero work history, your portfolio **is** your work history. It's the answer
 2. **GitHub Actions workflow** running on every push, with the HTML report uploaded as artifact — the green badge in the README is the single most persuasive pixel in your whole portfolio.
 3. A README that explains *why*: what's covered and what's deliberately not (linking your thinking to the [automation economics](../03-automation/01-when-to-automate.md)). One paragraph of strategy outweighs ten more tests.
 
-:::tip The meta-skill being demonstrated
-
-Each project's README should read like a client deliverable, not a homework submission. You are not showing that you can follow tutorials; you're simulating — accurately — what working with you feels like: planning, structure, evidence, judgment, handover quality. Write every artifact for the imaginary client who paid for it.
-
-:::
+> **The meta-skill being demonstrated**
+>
+> Each project's README should read like a client deliverable, not a homework submission. You are not showing that you can follow tutorials; you're simulating — accurately — what working with you feels like: planning, structure, evidence, judgment, handover quality. Write every artifact for the imaginary client who paid for it.
 
 ## Presentation layer
 

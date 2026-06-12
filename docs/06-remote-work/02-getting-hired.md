@@ -58,8 +58,6 @@ Boards and networks ranked in [Platforms](../04-remote-market/02-platforms-and-m
 - **LinkedIn optimization is an inbound asset**: headline = the job you want ("QA Engineer | Manual, API & Automation | Playwright"), about-section = your profile overview rewritten in first person, featured = portfolio links, and *activity* — posting one testing insight or project note weekly puts you in recruiter search results within a month or two. Inbound interviews skip the worst funnel stages.
 - **Referrals beat applications by an order of magnitude.** The [communities](../08-resources/02-practice-resources.md#communities-worth-joining) you joined for craft growth are also where "we're hiring a junior QA, anyone?" gets posted a day before the board listing. Visible, helpful community members get tagged. This is slow-compounding and worth starting now.
 
-:::tip Run both tracks
-
-Apply to employment while freelancing — each strengthens the other. Freelance work fills the resume's experience section and funds the search; an employment interview pipeline gives you pricing power and psychological leverage in freelance negotiations ("I'm deciding between this contract and a full-time offer" is the strongest rate-defense sentence that's also true). The careers that stall are the ones waiting in a single queue.
-
-:::
+> **Run both tracks**
+>
+> Apply to employment while freelancing — each strengthens the other. Freelance work fills the resume's experience section and funds the search; an employment interview pipeline gives you pricing power and psychological leverage in freelance negotiations ("I'm deciding between this contract and a full-time offer" is the strongest rate-defense sentence that's also true). The careers that stall are the ones waiting in a single queue.

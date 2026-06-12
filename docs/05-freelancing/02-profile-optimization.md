@@ -83,10 +83,8 @@ Productize your first hour everywhere (Upwork catalog, Fiverr Basic tier, Linked
 
 Cheap enough to be an impulse decision, scoped enough to never overrun, and it *manufactures* the thing you need most: a completed contract with a review, and a natural upsell conversation ("the audit found 11 issues — want a full regression pass before your launch?").
 
-:::warning Profile honesty
-
-Never claim certifications you don't hold, years you haven't worked, or (worst) borrowed portfolio artifacts — clients do reverse-image-search bug screenshots, and platforms permanently ban for it. The entire point of the [portfolio system](./01-portfolio.md) is that *manufactured-but-real* evidence is available to anyone willing to do the work. Fake experience is a career-ending shortcut to something you can legitimately build in eight weeks.
-
-:::
+> **Profile honesty**
+>
+> Never claim certifications you don't hold, years you haven't worked, or (worst) borrowed portfolio artifacts — clients do reverse-image-search bug screenshots, and platforms permanently ban for it. The entire point of the [portfolio system](./01-portfolio.md) is that *manufactured-but-real* evidence is available to anyone willing to do the work. Fake experience is a career-ending shortcut to something you can legitimately build in eight weeks.
 
 Next: the highest-ROI skill in freelancing — [Winning Proposals](./03-winning-proposals.md).

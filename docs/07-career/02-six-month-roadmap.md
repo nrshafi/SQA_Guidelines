@@ -82,8 +82,6 @@ Five numbers, reviewed weekly, that predict whether the roadmap is working:
 4. **Reviews + repeat/retainer count** — Phase 5–6 health
 5. **Effective hourly rate** (all earnings ÷ all hours) — the trendline that should bend upward from month 5
 
-:::tip If you're behind schedule
-
-The roadmap fails gracefully: every phase produces durable assets (skills, artifacts, ratings, relationships) even when the next phase stalls. Behind ≠ broken. The only true failure states are stopping entirely — or spending month 9 still exclusively in commodity manual work with no specialization plan. Everything else is variance.
-
-:::
+> **If you're behind schedule**
+>
+> The roadmap fails gracefully: every phase produces durable assets (skills, artifacts, ratings, relationships) even when the next phase stalls. Behind ≠ broken. The only true failure states are stopping entirely — or spending month 9 still exclusively in commodity manual work with no specialization plan. Everything else is variance.

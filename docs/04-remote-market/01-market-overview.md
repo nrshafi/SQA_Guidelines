@@ -18,11 +18,9 @@ Before investing six months of evenings into a QA career, you deserve an honest 
 | Skills shortage signal | Median time-to-fill for *senior automation* roles in North America exceeded **90 days** in 2025 |
 | Tool demand shift | Playwright job postings roughly **tripled** 2024–26; Cypress plateaued; Selenium's enterprise base persists |
 
-:::note About these numbers
-
-Different analysts slice "testing market" differently (services vs. tools vs. staff), which is why we show ranges rather than one precise-looking number. Directionally, every source agrees: growth, not decline. Always sanity-check current figures before quoting them to anyone.
-
-:::
+> **About these numbers**
+>
+> Different analysts slice "testing market" differently (services vs. tools vs. staff), which is why we show ranges rather than one precise-looking number. Directionally, every source agrees: growth, not decline. Always sanity-check current figures before quoting them to anyone.
 
 ## Why demand keeps rising
 

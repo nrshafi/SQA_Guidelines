@@ -39,11 +39,9 @@ That last line matters — without it you get the same generic checklist every t
 - **Confident wrongness in automation.** Generated tests that pass vacuously (asserting nothing meaningful) inflate your coverage metrics while defending nothing — silent rot in a suite.
 - **Stale knowledge.** Tool APIs move fast; models recommend deprecated flags and old syntax with total confidence.
 
-:::warning Client confidentiality — the rule freelancers actually get fired over
-
-Never paste a client's proprietary code, unreleased feature specs, credentials, customer data, or security findings into a public AI tool without **explicit written permission**. Many companies prohibit it outright; some jurisdictions make it a data-protection violation. Safe defaults: use anonymized/synthetic equivalents, prefer enterprise AI accounts the *client* provides, and put an "AI tool usage" line in your engagement agreement so it's negotiated, not discovered. One careless paste can end a contract and a reputation.
-
-:::
+> **Client confidentiality — the rule freelancers actually get fired over**
+>
+> Never paste a client's proprietary code, unreleased feature specs, credentials, customer data, or security findings into a public AI tool without **explicit written permission**. Many companies prohibit it outright; some jurisdictions make it a data-protection violation. Safe defaults: use anonymized/synthetic equivalents, prefer enterprise AI accounts the *client* provides, and put an "AI tool usage" line in your engagement agreement so it's negotiated, not discovered. One careless paste can end a contract and a reputation.
 
 ## The AI-era positioning of a tester
 

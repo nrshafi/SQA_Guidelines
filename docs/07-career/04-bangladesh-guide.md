@@ -7,11 +7,9 @@ keywords: [bangladesh freelancer payment, payoneer bangladesh, freelancer id car
 
 Two of the three research reports behind this site were written with Bangladeshi freelancers in mind, and for good reason: Bangladesh has a large, fast-growing QA freelance community — and a payment/compliance landscape just complicated enough to deserve its own page. Everything here changes periodically; figures reflect the 2025–2026 research snapshot. **Verify current fees and rules before relying on them.**
 
-:::note Not from Bangladesh?
-
-Skim anyway — the *structure* (compare corridors by total cost, formalize early, bank through official channels, claim every legal incentive) applies to freelancers in most emerging markets; only the institution names change.
-
-:::
+> **Not from Bangladesh?**
+>
+> Skim anyway — the *structure* (compare corridors by total cost, formalize early, bank through official channels, claim every legal incentive) applies to freelancers in most emerging markets; only the institution names change.
 
 ## The constraint that shapes everything
 

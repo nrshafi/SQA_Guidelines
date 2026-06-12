@@ -61,8 +61,6 @@ There's also the **hybrid exit**: scaled freelancers are extremely attractive se
 - **Craft depth**: the [AI shift](../03-automation/04-ai-in-qa.md) keeps repricing execution downward and judgment upward; stay on the judgment side via community, conferences, and deliberate practice.
 - **A bench of peers**: the freelancers one tier above you are your referral network for overflow work in both directions. Generosity with leads compounds.
 
-:::tip The metric that matters now
-
-Stop tracking income alone; track **income per worked hour, trailing 90 days**. Every move on this page — retainers, specialization, productization, up-market, delegation — is just a different lever on that one number. When a move stops moving it, switch levers.
-
-:::
+> **The metric that matters now**
+>
+> Stop tracking income alone; track **income per worked hour, trailing 90 days**. Every move on this page — retainers, specialization, productization, up-market, delegation — is just a different lever on that one number. When a move stops moving it, switch levers.

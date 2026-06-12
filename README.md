@@ -1,4 +1,4 @@
-# [SQA Guidelines](https://github.com/nrshafi/SQA_Guidelines)
+# [SQA Guidelines](https://nrshafi.github.io/SQA_Guidelines/)
 
 A practical handbook for **Software Quality Assurance** — covering the testing craft (test design, bug reporting, exploratory testing, API testing, automation) and the complete playbook for turning those skills into **remote QA jobs or a freelance practice**.
 

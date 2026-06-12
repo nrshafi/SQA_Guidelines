@@ -38,11 +38,9 @@ You cannot learn testing by reading about testing. These are the targets to prac
 | **Automation Exercise** | automationexercise.com | Documented end-to-end scenarios — good for a full POM suite |
 | **The Internet (Heroku)** | the-internet.herokuapp.com | The classic locator/waiting drill set |
 
-:::tip Practice with deliverables, not wandering
-
-An hour of practice that produces an artifact (test cases, a session sheet, a bug report, a passing CI run) is worth five hours of clicking around. Every practice block should end with something you could — and often will — show a client. That's the entire [portfolio strategy](../05-freelancing/01-portfolio.md) in one habit.
-
-:::
+> **Practice with deliverables, not wandering**
+>
+> An hour of practice that produces an artifact (test cases, a session sheet, a bug report, a passing CI run) is worth five hours of clicking around. Every practice block should end with something you could — and often will — show a client. That's the entire [portfolio strategy](../05-freelancing/01-portfolio.md) in one habit.
 
 ## Learning resources worth your time
 

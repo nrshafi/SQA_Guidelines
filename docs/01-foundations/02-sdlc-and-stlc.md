@@ -14,11 +14,9 @@ The **Software Development Life Cycle** is the path from idea to running softwar
 - **Waterfall (sequential).** Each stage completes before the next begins; testing is a late phase. Still common in regulated domains (banking cores, medical devices, government). Heavy documentation, formal sign-offs.
 - **Agile (iterative).** Work ships in 1–4 week increments. Testing happens *inside* every increment, continuously. This is the dominant model in startups and SaaS — which is to say, the dominant model among remote/freelance clients.
 
-:::note What this means for you
-
-Almost every freelance client works in some flavor of Agile (often a loose one). They will not hand you a requirements document. You'll get user stories, Figma links, half-written Notion pages, or a Slack message that says "can you test the new checkout?" Part of your value is *creating* the missing structure: turning vague intentions into explicit, checkable expectations.
-
-:::
+> **What this means for you**
+>
+> Almost every freelance client works in some flavor of Agile (often a loose one). They will not hand you a requirements document. You'll get user stories, Figma links, half-written Notion pages, or a Slack message that says "can you test the new checkout?" Part of your value is *creating* the missing structure: turning vague intentions into explicit, checkable expectations.
 
 ## Scrum vocabulary you'll be expected to know
 

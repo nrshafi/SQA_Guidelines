@@ -48,10 +48,8 @@ Beginners are the preferred prey of freelance scams — eagerness plus inexperie
 6. **When something smells wrong, ask one clarifying question and watch the reaction.** Legitimate clients clarify; scammers escalate pressure or vanish. Pressure in response to reasonable diligence *is* the answer.
 7. **Report, don't just decline.** Flagging scam posts protects the next beginner and (on most platforms) costs you nothing.
 
-:::tip The economics of walking away
-
-Every hour spent on a bad client has a double cost: the loss itself, plus the good client it displaced. Beginners fear that declining suspicious work will starve them; in practice the discipline *accelerates* growth, because your limited bidding energy concentrates on winnable, payable, reviewable work. Scarcity thinking is precisely the lever scammers pull — refuse to hand it to them.
-
-:::
+> **The economics of walking away**
+>
+> Every hour spent on a bad client has a double cost: the loss itself, plus the good client it displaced. Beginners fear that declining suspicious work will starve them; in practice the discipline *accelerates* growth, because your limited bidding energy concentrates on winnable, payable, reviewable work. Scarcity thinking is precisely the lever scammers pull — refuse to hand it to them.
 
 With defense covered, the offense: [Remote Collaboration](../06-remote-work/01-remote-collaboration.md) — the skills that make distributed teams want to keep you.

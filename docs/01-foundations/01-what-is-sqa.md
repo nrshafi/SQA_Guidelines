@@ -17,11 +17,9 @@ keywords: [what is sqa, quality assurance vs quality control, software testing b
 
 Testing is the engine inside both. QC uses testing to check conformance; QA uses what testing reveals to improve the whole development process.
 
-:::info Why this matters for freelancers specifically
-
-A client who hires a "QA tester" for 20 hours usually wants **QC plus investigation**: "find what's broken before my users do." But the freelancers who get retained long-term are the ones who quietly deliver **QA**: "here's a release checklist for your team," "your bug reports lack reproduction steps — here's a template," "these three modules generate 70% of your defects." Process insight is what turns a one-off gig into a retainer.
-
-:::
+> **Why this matters for freelancers specifically**
+>
+> A client who hires a "QA tester" for 20 hours usually wants **QC plus investigation**: "find what's broken before my users do." But the freelancers who get retained long-term are the ones who quietly deliver **QA**: "here's a release checklist for your team," "your bug reports lack reproduction steps — here's a template," "these three modules generate 70% of your defects." Process insight is what turns a one-off gig into a retainer.
 
 ## Quality is an economic argument
 

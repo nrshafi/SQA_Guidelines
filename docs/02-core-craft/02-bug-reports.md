@@ -81,11 +81,9 @@ A practical severity scale: **Critical** (crash, data loss, security hole, money
 - **Report what you saw, including the embarrassing possibility you misunderstood.** "Possibly intended behavior — flagging because it contradicts the Figma" is a perfectly professional report.
 - **Close the loop.** When a fix ships, re-test promptly and confirm in the ticket. Unverified fixes are where regressions sleep.
 
-:::tip The "first bug free" proposal technique
-
-When bidding on freelance jobs, spend 15 minutes on the client's public site/app and include **one real, well-written mini bug report in your proposal**. It demonstrates your reporting quality, proves you actually looked at *their* product, and converts dramatically better than any paragraph about your skills. Full breakdown in [Winning Proposals](../05-freelancing/03-winning-proposals.md).
-
-:::
+> **The "first bug free" proposal technique**
+>
+> When bidding on freelance jobs, spend 15 minutes on the client's public site/app and include **one real, well-written mini bug report in your proposal**. It demonstrates your reporting quality, proves you actually looked at *their* product, and converts dramatically better than any paragraph about your skills. Full breakdown in [Winning Proposals](../05-freelancing/03-winning-proposals.md).
 
 ## The triage conversation
 

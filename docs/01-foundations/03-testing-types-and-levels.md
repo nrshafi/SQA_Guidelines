@@ -40,11 +40,9 @@ The classic **test pyramid** says: many fast unit tests at the bottom, fewer int
 
 <small>*Blended ranges from the market research in this repo's References folder (2024–2026); treat as directional, not promised.</small>
 
-:::tip The accessibility opportunity
-
-The **European Accessibility Act** became enforceable in mid-2025, making WCAG compliance a legal requirement for many digital products sold in the EU. Demand for accessibility testers jumped, and crowdtesting platforms (Testbirds, Testlio) actively recruit for paid accessibility runs. It's one of the few specializations that is simultaneously **in demand, learnable without coding, and not yet saturated**. If you're a manual tester looking for an edge, this is arguably the best value-per-study-hour available right now.
-
-:::
+> **The accessibility opportunity**
+>
+> The **European Accessibility Act** became enforceable in mid-2025, making WCAG compliance a legal requirement for many digital products sold in the EU. Demand for accessibility testers jumped, and crowdtesting platforms (Testbirds, Testlio) actively recruit for paid accessibility runs. It's one of the few specializations that is simultaneously **in demand, learnable without coding, and not yet saturated**. If you're a manual tester looking for an edge, this is arguably the best value-per-study-hour available right now.
 
 ## Specialization economics — where the money concentrates
 

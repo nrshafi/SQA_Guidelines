@@ -86,10 +86,8 @@ Quality view: Checkout core flows are solid. Residual risk: discount-code
 Known issues list: attached.
 ```
 
-:::tip Original insight: the plan is a sales tool
-
-Most freelancers treat plans as bureaucracy. Reframe: a crisp one-page plan delivered *within 24 hours of the discovery call* is the strongest "hire me" signal that exists in this market — it proves structured thinking before any money moves, and it quietly sets the professional terms (scope, change policy, daily reports) that protect you later. Several sections of the [proposal playbook](../05-freelancing/03-winning-proposals.md) are built around exactly this move.
-
-:::
+> **Original insight: the plan is a sales tool**
+>
+> Most freelancers treat plans as bureaucracy. Reframe: a crisp one-page plan delivered *within 24 hours of the discovery call* is the strongest "hire me" signal that exists in this market — it proves structured thinking before any money moves, and it quietly sets the professional terms (scope, change policy, daily reports) that protect you later. Several sections of the [proposal playbook](../05-freelancing/03-winning-proposals.md) are built around exactly this move.
 
 Next: the highest-skill manual discipline — [Exploratory Testing](./04-exploratory-testing.md).

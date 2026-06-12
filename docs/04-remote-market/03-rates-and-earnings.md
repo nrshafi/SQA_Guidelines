@@ -56,11 +56,9 @@ Worth understanding, because it inoculates you against both despair ("$5/hr?!") 
 3. **Plan the ladder in advance.** A working default: after reviews #3, #10, and each retainer win, raise 20–30% for *new* clients. Existing clients get smaller, notice-period raises — scripts in [Pricing & Contracts](../05-freelancing/04-pricing-and-contracts.md).
 4. **Sanity-check against your floor.** Compute your minimum viable hourly (living costs + taxes + fees + unbillable time ÷ billable hours). Platform fees (~10% Upwork, 20% Fiverr), payment fees (~2%), and the ~30–50% of time spent bidding/learning/administrating mean a "$15/hr" gig nets far less. Don't price below the floor for longer than a deliberate review-buying phase.
 
-:::tip The uncomfortable truth about your first three contracts
-
-Your first contracts are not income — they're **paid marketing**. You're buying reviews, a Job Success Score, and proof-of-work, probably at an effective rate that would be unacceptable later. That's fine *if it's a deliberate 60–90 day phase with an exit ladder*, and corrosive if it quietly becomes your identity. Decide the end date of your "cheap era" before it starts.
-
-:::
+> **The uncomfortable truth about your first three contracts**
+>
+> Your first contracts are not income — they're **paid marketing**. You're buying reviews, a Job Success Score, and proof-of-work, probably at an effective rate that would be unacceptable later. That's fine *if it's a deliberate 60–90 day phase with an exit ladder*, and corrosive if it quietly becomes your identity. Decide the end date of your "cheap era" before it starts.
 
 ## Earnings trajectory (composite of the three references' roadmaps)
 

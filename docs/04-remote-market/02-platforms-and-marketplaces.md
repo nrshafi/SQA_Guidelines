@@ -53,10 +53,8 @@ Spreading across six platforms produces zero traction on all of them. The strate
 2. **Months 4–9:** Upwork as primary (where first real clients are won) + keep the best crowdtesting stream alive. Optionally park one well-made Fiverr gig as passive inbound.
 3. **Months 9+:** add LinkedIn/WWR applications (stability) or double down on marketplace specialization; consider elite networks at the 18–24 month mark.
 
-:::tip Platform risk — the part most guides omit
-
-Any platform can suspend your account, change its fees, or algorithm-bury you overnight, and your reviews are not portable. From your first client onward, practice **platform-independence hygiene**: deliver excellence, build a portfolio that exists *off*-platform (GitHub/Notion — see [Portfolio](../05-freelancing/01-portfolio.md)), and let satisfied clients know (within each platform's rules — solicit carefully, Upwork restricts off-platform contact with *platform-met* clients) that you also exist on LinkedIn. Long-term, your goal is for platforms to be lead sources, not landlords. More in [Scaling Up](../07-career/03-scaling-up.md).
-
-:::
+> **Platform risk — the part most guides omit**
+>
+> Any platform can suspend your account, change its fees, or algorithm-bury you overnight, and your reviews are not portable. From your first client onward, practice **platform-independence hygiene**: deliver excellence, build a portfolio that exists *off*-platform (GitHub/Notion — see [Portfolio](../05-freelancing/01-portfolio.md)), and let satisfied clients know (within each platform's rules — solicit carefully, Upwork restricts off-platform contact with *platform-met* clients) that you also exist on LinkedIn. Long-term, your goal is for platforms to be lead sources, not landlords. More in [Scaling Up](../07-career/03-scaling-up.md).
 
 Next: what all of this actually pays — [Rates & Earnings](./03-rates-and-earnings.md).

@@ -11,11 +11,9 @@ Welcome. This site is a **practical handbook for Software Quality Assurance (SQA
 
 Most QA resources do one or the other. They either teach testing theory with no connection to the job market, or they sell you "freelancing hacks" with no substance behind them. The uncomfortable truth sits in the middle:
 
-:::tip The core thesis of this entire site
-
-**Freelance platforms are crowded with people who *call* themselves testers. They are starved of people who can actually test.** Every hour you invest in the craft — test design, sharp bug reports, automation, clear written communication — multiplies the return on every hour you spend bidding, profile-polishing, and networking. Skill first, marketing second. Both matter.
-
-:::
+> **The core thesis of this entire site**
+>
+> **Freelance platforms are crowded with people who *call* themselves testers. They are starved of people who can actually test.** Every hour you invest in the craft — test design, sharp bug reports, automation, clear written communication — multiplies the return on every hour you spend bidding, profile-polishing, and networking. Skill first, marketing second. Both matter.
 
 ## Who this is for
 

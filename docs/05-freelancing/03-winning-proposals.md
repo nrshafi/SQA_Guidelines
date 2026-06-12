@@ -72,8 +72,6 @@ A useful weekly budget while launching: 15–25 targeted proposals. Track them i
 - **The interview is a discovery call.** Ask about their release cadence, current bug process, biggest quality fear. You're demonstrating [client management](./05-client-management.md) before being hired — and qualifying *them* too.
 - **Confirm scope in writing** before accepting: deliverables, timeline, what's out. The proposal got you chosen; the written scope keeps you paid. Details in [Pricing & Contracts](./04-pricing-and-contracts.md).
 
-:::tip Volume never fixes a conversion problem
-
-If 30 proposals produce zero replies, the 31st identical one won't either. Diagnose in order: (1) job selection — too crowded/too senior? (2) first line — generic? (3) proof — irrelevant or missing? (4) profile — does the click-through kill it (see [Profile Optimization](./02-profile-optimization.md))? Fix the funnel stage that's actually leaking, then resume volume.
-
-:::
+> **Volume never fixes a conversion problem**
+>
+> If 30 proposals produce zero replies, the 31st identical one won't either. Diagnose in order: (1) job selection — too crowded/too senior? (2) first line — generic? (3) proof — irrelevant or missing? (4) profile — does the click-through kill it (see [Profile Optimization](./02-profile-optimization.md))? Fix the funnel stage that's actually leaking, then resume volume.

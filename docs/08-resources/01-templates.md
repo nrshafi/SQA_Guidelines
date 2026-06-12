@@ -154,8 +154,6 @@ Payment: <Wise/Payoneer/bank details>          Reference: <invoice #>
 Late payments accrue <1.5%/month> after the due date.  Thank you!
 ```
 
-:::tip Make them yours
-
-Copy these into your own template vault (Notion/Drive) and refine after every engagement — the fields you keep adding are your experience accumulating. Within a year, your personalized template set becomes one of your most valuable business assets: instant professionalism at zero marginal cost, and the backbone of the [productized services](../07-career/03-scaling-up.md#move-3--productized-services) you'll eventually sell.
-
-:::
+> **Make them yours**
+>
+> Copy these into your own template vault (Notion/Drive) and refine after every engagement — the fields you keep adding are your experience accumulating. Within a year, your personalized template set becomes one of your most valuable business assets: instant professionalism at zero marginal cost, and the backbone of the [productized services](../07-career/03-scaling-up.md#move-3--productized-services) you'll eventually sell.

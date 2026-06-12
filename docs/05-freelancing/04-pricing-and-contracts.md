@@ -35,11 +35,9 @@ Every engagement gets a written scope — the [one-page plan](../02-core-craft/0
 
 No resentment, no free work, no conflict — just a quote. Clients respect this far more than silent absorption followed by burnout. The freelancers who get walked over aren't the polite ones; they're the ones with no written scope to point at.
 
-:::warning The "you tested it, why is there a bug?" clause
-
-Put expectation language in every scope: *"Testing reduces risk; it cannot prove the absence of defects. Coverage is prioritized by the risk ranking in this plan, and untested areas are listed as such in the summary report."* This sentence — standard in professional services — converts a future blame conversation into a documented, shared understanding. It has saved more freelancer relationships (and payments) than any tool ever will.
-
-:::
+> **The "you tested it, why is there a bug?" clause**
+>
+> Put expectation language in every scope: *"Testing reduces risk; it cannot prove the absence of defects. Coverage is prioritized by the risk ranking in this plan, and untested areas are listed as such in the summary report."* This sentence — standard in professional services — converts a future blame conversation into a documented, shared understanding. It has saved more freelancer relationships (and payments) than any tool ever will.
 
 ## Raising rates
 
