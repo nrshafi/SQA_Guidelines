@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://your-org.github.io/SQA_Guidelines/sitemap.xml
